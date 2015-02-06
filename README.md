@@ -1,4 +1,4 @@
-# tiy_assignments gh-pages links
+# tiy_assignments (gh-pages)
 
 ## Week One
 
