@@ -11,18 +11,18 @@ header {
 	position: relative;
 }
 header h1 {
-	font-size: 112px;
+	font-size: 111px;
 	color: white;
 	text-align: center;
 	padding-top: 123px;
-	padding-left: 35px;
+	padding-left: 15px;
 	font-weight: 600;
 }
 
 header h2 {
 	text-align: center;
 	font-weight: 600;
-	padding-left: 27px;
+	padding-left: 12px;
 	color: #083452;
 	font-weight: 700;
 }
@@ -52,7 +52,7 @@ header h2 {
 	float: right;
 	position: absolute;
 	top: 1px;
-	right: 77px;
+	right: 92px;
 	font-size: 18px;
 	font-weight: 600;
 }
@@ -249,7 +249,7 @@ footer {
 	border-top: 1px solid #a3b3bf;
 	text-align: center;
 	padding-top: 42px;
-	padding-left: 37px;
+	padding-left: 18px;
 	font-size: 64px;
 	color: #083452;
 }
@@ -297,7 +297,7 @@ footer {
 .bottom_footer ul {
 	float: right;
 	position: absolute;
-	right: 113px;
+	right: 128px;
 	bottom: 41px;
 }
 .bottom_footer li {
