@@ -1,92 +1,70 @@
-/* banner */
-
+/* variables */
+/* header */
 header {
   background-color: #ccc;
   color: white;
   padding: 30px 50px;
   font-family: sans-serif;
-  font-weight: 100;
-}
-.header_content {
-  margin: 0 auto;
-  width: 960px;
-}
-.menu {
-  text-align: right;
-}
-.menu li {
-  display: inline-block;
-}
-.menu a {
-	text-decoration: none;
-	color: white;
-  padding: 8px;
-  margin-right: 30px;
-}
-.menu a:hover {
-	color: #888;
-}
-h1 {
-  font-size: 50px;
-}
+  font-weight: 100; }
+  header .header_content {
+    margin: 0 auto;
+    width: 960px; }
+  header .menu {
+    text-align: right; }
+    header .menu li {
+      display: inline-block; }
+    header .menu a {
+      text-decoration: none;
+      color: white;
+      padding: 8px;
+      margin-right: 30px; }
+    header .menu a:hover {
+      color: #888; }
+  header h1 {
+    font-size: 50px; }
 
 /* section */
-
 .main_content {
   margin: 0 auto;
   max-width: 960px;
   padding: 50px 0;
   color: #555;
-  font-family: sans-serif;
-}
-p, li {
-  line-height: 1.25em;
-}
+  font-family: sans-serif; }
+  .main_content p, .main_content li {
+    line-height: 1.25em; }
+  .main_content a {
+    color: #555; }
 
 /* about me */
-
 .about_me {
   float: left;
   width: 45%;
-  margin-right: 5%;
-}
-.about_me span a {
-  text-decoration: none;
-}
+  margin-right: 5%; }
+  .about_me span a {
+    text-decoration: none; }
+  .about_me h2 {
+    font-size: 2em; }
+  .about_me h3 {
+    font-size: 1.5em;
+    margin-bottom: 8px; }
+  .about_me h5 {
+    font-size: 1.25em;
+    margin-bottom: 5px; }
+  .about_me .favs {
+    margin-top: 10px; }
+    .about_me .favs li:last-child {
+      margin-bottom: 15px; }
+    .about_me .favs span {
+      font-variant: small-caps; }
 
-h2 {
-  font-size: 2em;
-}
-h3 {
-  font-size: 1.5em;
-  margin-bottom: 8px;
-}
-h5 {
-  font-size: 1.25em;
-  margin-bottom: 5px;
-}
-
-.favs li:last-child {
-  margin-bottom: 15px;
-}
-.favs {
-  margin-top: 10px;
-}
-.favs span {
-  font-variant: small-caps;
-}
 /* image and social media box */
-
-.photo {
- float: right;
- width: 45%;
- height: 300px;
- margin-bottom: 50px;
- border-radius: 20px;
-}
 .photo img {
-  max-width: 100%;
-}
+  float: right;
+  width: 45%;
+  height: 300px;
+  margin-bottom: 50px;
+  border-radius: 20px; }
+
 .social {
   width: 45%;
   height: 40px;
@@ -95,15 +73,12 @@ h5 {
   text-align: center;
   overflow: hidden;
   padding: 10px 0;
-  float:right;
-}
+  float: right; }
+  .social a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif; }
+  .social a:hover {
+    color: #888; }
 
-.social a {
-  text-decoration: none;
-  color: white;
-  font-family: sans-serif;
-}
-.social a:hover {
-  color: #888;
-}
-
+/*# sourceMappingURL=main.css.map */
