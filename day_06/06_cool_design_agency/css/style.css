@@ -1,3 +1,4 @@
+/* Variables */
 body {
   font-family: Helvetica; }
 
@@ -32,95 +33,66 @@ header {
 .staff {
   margin: 0 100px 110px 100px;
   overflow: hidden;
-  width: 1080px; }
-
-.staff p {
-  line-height: 1.4; }
-
-.staff h2 {
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 60px;
-  font-weight: bold; }
-
-.staff h3 {
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center; }
-
-.han_solo {
-  float: left;
-  width: 200px;
-  font-size: 11px;
-  text-align: center; }
-
-.han_img {
-  background-image: url(../images/han.jpg);
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-bottom: 20px; }
-
-.chewy {
-  float: left;
-  width: 200px;
-  font-size: 11px;
-  text-align: center;
-  margin: 0 240px; }
-
-.chewy_img {
-  background-image: url(../images/chewbacca.jpg);
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-bottom: 20px; }
-
-.darth {
-  float: left;
-  width: 200px;
-  font-size: 11px;
-  text-align: center; }
-
-.darth_img {
-  background-image: url(../images/darth.jpg);
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-bottom: 20px; }
+  width: 1080px;
+  /* Can I put .han_solo and .han_img on the same line sep by comma??*/ }
+  .staff p {
+    line-height: 1.4; }
+  .staff h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: bold; }
+  .staff h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; }
+  .staff .han_solo, .staff .darth, .staff .chewy {
+    float: left;
+    width: 200px;
+    font-size: 11px;
+    text-align: center; }
+  .staff .han_img, .staff .chewy_img, .staff .darth_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px; }
+  .staff .han_img {
+    background-image: url(../images/han.jpg); }
+  .staff .chewy {
+    margin: 0 240px; }
+    .staff .chewy .chewy_img {
+      background-image: url(../images/chewbacca.jpg); }
+  .staff .darth_img {
+    background-image: url(../images/darth.jpg); }
 
 /* ================= map ===================*/
 .map {
   background-color: #f2ede5;
   overflow: hidden; }
-
-.map-photo {
-  width: 640px;
-  height: 500px;
-  float: left; }
-
-.office {
-  float: left;
-  text-align: left;
-  padding-top: 180px;
-  padding-left: 130px; }
-
-.office h2 {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 30px; }
-
-.office h3 {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: left; }
+  .map .map-photo {
+    width: 640px;
+    height: 500px;
+    float: left; }
+  .map .office {
+    float: left;
+    text-align: left;
+    padding-top: 180px;
+    padding-left: 130px; }
+    .map .office h2 {
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 30px; }
+    .map .office h3 {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: left; }
 
 footer {
   height: 130px;
   text-align: center;
   font-size: 20px;
   clear: both; }
-
-.footer-text {
-  padding-top: 65px; }
+  footer .footer-text {
+    padding-top: 65px; }
 
 /*# sourceMappingURL=style.css.map */
