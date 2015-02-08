@@ -3,7 +3,7 @@
 ## Week One
 
   * [day 03 - Styles Conference](http://dawndelatte.github.io/tiy_assignments/day_03/)
-  * [day 04 - Styles Confrence Competed](http://dawndelatte.github.io/tiy_assignments/day_04/)
+  * [day 04 - Styles Conference Competed](http://dawndelatte.github.io/tiy_assignments/day_04/)
   * [day 04 - About Me](http://dawndelatte.github.io/tiy_assignments/day_04/about_me)
   
   
