@@ -1,5 +1,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	background-repeat: no-repeat;
+	width: 1300px;
 }
 
 /* ======== Header ========== */
