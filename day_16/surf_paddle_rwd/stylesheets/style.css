@@ -160,6 +160,9 @@ span {
 .btn_ext {
 	display: none;
 }
+.htemil_photo {
+	width: 20%;
+}
 .social {
 		margin: 2em 0;
 }
@@ -280,6 +283,9 @@ span {
 	font-size: .815em;
 	color: #a3b3bf;
 }
+.iron_yard_info img {
+	padding-left: 2em;
+}
 
 .iron_yard_info {
 	width: 40%;
@@ -344,6 +350,9 @@ header h1 {
 .social {
 	margin: 1.5em 0 3em 0;
 }
+.htemil_photo {
+	width: 50%;
+}
 .ad {
 	float: left;
 	width: 50%;
@@ -351,7 +360,8 @@ header h1 {
 }
 .sidebar {
 	float: left;
-	width: 50%;
+	width: 45%;
+	margin-left: 5%;
 }
 .top_footer {
 	margin: 1em 0;
@@ -370,6 +380,7 @@ header h1 {
 }
 .iron_yard_info img {
 	float: left;
+	padding-left: 1em;
 }
 .iron_yard_info p {
 	float: left;
