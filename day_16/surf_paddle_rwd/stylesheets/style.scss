@@ -1,4 +1,5 @@
 /*========= mixins =========*/
+
 @mixin global-footer-images {
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -50,6 +51,10 @@ header {
 
 	img {
 	display: inline-block;
+	}
+	h3 {
+	color: #083452;
+	font-weight: 600;
 	}
 }
 
@@ -188,11 +193,11 @@ span {
 }
 
 .htemil_photo {
-	width: 20%;
+	width: 15%;
 }
 
 .social {
-		margin: 2em 0;
+		margin: 2em 2em;
 
 	img {
 	margin-right: .5em;
@@ -226,9 +231,12 @@ span {
 	text-decoration: underline;
 	margin-top: .375em;
 	color: #a3b3bf;
+	text-align: center;
 	}
 	img {
 	max-width: 100%;
+	display: block;
+	margin: 0 auto;
 	}
 }
 
@@ -315,6 +323,28 @@ span {
 	}
 }
 
+/*========= buttons and headings breakpoint =========*/
+
+@media screen and (min-width: 610px) {
+	.btn_ext {
+	display: inline-block;
+}
+.article_btns {
+	margin-left: 0;
+
+	p{
+	padding-right: 1.125em;
+	}
+}
+header h1 {
+	font-size: 3.2em;
+}
+.headline h2 {
+	font-size: 2.4em;
+}
+
+}
+
 /*========= medium breakpoint =========*/
 
 
@@ -340,7 +370,7 @@ header {
 	padding-top: 5em;
 }
 .headline h2 {
-	font-size: 3em;
+	font-size: 2.6em;
 }
 .ht_img {
 	display: block;
@@ -348,17 +378,6 @@ header {
 	float: left;
 	margin-right: .75em;
 }
-.btn_ext {
-	display: inline-block;
-}
-.article_btns {
-	margin-left: 0;
-
-	p{
-	padding-right: 1.125em;
-	}
-}
-
 .btn1, .btn2, {
 	padding-right: .62em;
 }
@@ -372,7 +391,7 @@ header {
 }
 
 .htemil_photo {
-	width: 50%;
+	width: 100%;
 }
 .ad {
 	float: left;
@@ -397,7 +416,7 @@ header {
 	clear: both;
 }
 .iron_yard_info {
-	width: 45%;
+	width: 50%;
 	
 	img {
 	float: left;
@@ -407,26 +426,6 @@ header {
 	float: left;
 	padding-top: 1.2em;
 	padding-left: 1em;
-	}
-}
-
-.bottom_footer {
-
-	ul {
-	width: 45%;
-	padding-top: .8em;
-	}
-	li {
-	display: inline-block;
-	border-right: 1px solid #a3b3bf;
-	margin-right: 1em;
-	}
-	& li:nth-of-type(4){
-	border: none;
-	margin-right: 0;
-	}
-	li a{
-	padding-right: 1em;
 	}
 }
 
@@ -497,7 +496,6 @@ header {
 	float: right;
 	}
 }
-
 .sidebar {
 	clear: both;
 	float: none;
@@ -511,5 +509,31 @@ header {
 .top_footer h2 {
 	font-size: 1.5em;
 }
+.bottom_footer {
 
+	ul {
+	width: 45%;
+	padding-top: .8em;
+	}
+	li {
+	display: inline-block;
+	border-right: 1px solid #a3b3bf;
+	margin-right: 1em;
+	}
+	& li:nth-of-type(4){
+	border: none;
+	margin-right: 0;
+	}
+	li a{
+	padding-right: .5em;
+	}
+}
+}
+/*========= header breakpoint =========*/
+
+@media screen and (min-width: 1120px) {
+
+	.headline h2 {
+	font-size: 3em;
+	}
 }

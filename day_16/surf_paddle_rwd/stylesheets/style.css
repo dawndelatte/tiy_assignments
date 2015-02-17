@@ -34,6 +34,9 @@ header {
   padding: .5em 0 1em 0; }
   .logo img {
     display: inline-block; }
+  .logo h3 {
+    color: #083452;
+    font-weight: 600; }
 
 .sp_logo {
   display: none; }
@@ -134,10 +137,10 @@ span {
   display: none; }
 
 .htemil_photo {
-  width: 20%; }
+  width: 15%; }
 
 .social {
-  margin: 2em 0; }
+  margin: 2em 2em; }
   .social img {
     margin-right: .5em;
     max-width: 100%;
@@ -162,9 +165,12 @@ span {
     font-size: 14px;
     text-decoration: underline;
     margin-top: .375em;
-    color: #a3b3bf; }
+    color: #a3b3bf;
+    text-align: center; }
   .ad img {
-    max-width: 100%; }
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; }
 
 .sidebar h3 {
   margin-bottom: .625em;
@@ -250,6 +256,21 @@ span {
     letter-spacing: .4px;
     line-height: 1.25em; }
 
+/*========= buttons and headings breakpoint =========*/
+@media screen and (min-width: 610px) {
+  .btn_ext {
+    display: inline-block; }
+
+  .article_btns {
+    margin-left: 0; }
+    .article_btns p {
+      padding-right: 1.125em; }
+
+  header h1 {
+    font-size: 3.2em; }
+
+  .headline h2 {
+    font-size: 2.4em; } }
 /*========= medium breakpoint =========*/
 @media screen and (min-width: 700px) {
   header {
@@ -271,21 +292,13 @@ span {
     padding-top: 5em; }
 
   .headline h2 {
-    font-size: 3em; }
+    font-size: 2.6em; }
 
   .ht_img {
     display: block;
     width: 5%;
     float: left;
     margin-right: .75em; }
-
-  .btn_ext {
-    display: inline-block; }
-
-  .article_btns {
-    margin-left: 0; }
-    .article_btns p {
-      padding-right: 1.125em; }
 
   .btn1, .btn2 {
     padding-right: .62em; }
@@ -296,7 +309,7 @@ span {
       margin-right: 3em; }
 
   .htemil_photo {
-    width: 50%; }
+    width: 100%; }
 
   .ad {
     float: left;
@@ -321,7 +334,7 @@ span {
     clear: both; }
 
   .iron_yard_info {
-    width: 45%; }
+    width: 50%; }
     .iron_yard_info img {
       float: left;
       padding-left: 1em; }
@@ -329,19 +342,6 @@ span {
       float: left;
       padding-top: 1.2em;
       padding-left: 1em; }
-
-  .bottom_footer ul {
-    width: 45%;
-    padding-top: .8em; }
-  .bottom_footer li {
-    display: inline-block;
-    border-right: 1px solid #a3b3bf;
-    margin-right: 1em; }
-  .bottom_footer li:nth-of-type(4) {
-    border: none;
-    margin-right: 0; }
-  .bottom_footer li a {
-    padding-right: 1em; }
 
   .top_footer h2 {
     font-size: 1.25em; } }
@@ -400,6 +400,23 @@ span {
     height: 325px; }
 
   .top_footer h2 {
-    font-size: 1.5em; } }
+    font-size: 1.5em; }
+
+  .bottom_footer ul {
+    width: 45%;
+    padding-top: .8em; }
+  .bottom_footer li {
+    display: inline-block;
+    border-right: 1px solid #a3b3bf;
+    margin-right: 1em; }
+  .bottom_footer li:nth-of-type(4) {
+    border: none;
+    margin-right: 0; }
+  .bottom_footer li a {
+    padding-right: .5em; } }
+/*========= header breakpoint =========*/
+@media screen and (min-width: 1120px) {
+  .headline h2 {
+    font-size: 3em; } }
 
 /*# sourceMappingURL=style.css.map */
