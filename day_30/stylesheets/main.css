@@ -1,0 +1,137 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* ========== global ========== */
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1000px; }
+
+h4 {
+  width: 100%; }
+  h4 span {
+    float: right; }
+
+.col5 {
+  margin-top: 4em; }
+
+/* ========== medium ========== */
+/* ========== large ========== */
+/*Family*/
+/*Size*/
+/* ========== global ========== */
+h1 {
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+  font-size: 3em; }
+
+h2 {
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+  font-size: 2.5em; }
+
+h3 {
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+  font-size: 2em; }
+
+h4 {
+  font-family: "jaf-facitweb", sans-serif;
+  font-weight: bold;
+  line-height: 1.2em; }
+
+h5 {
+  font-family: "jaf-facitweb", sans-serif;
+  font-size: 0.5em; }
+
+p {
+  font-family: "jaf-facitweb", sans-serif;
+  font-size: 1em;
+  line-height: 1.4em; }
+
+li {
+  font-family: "alternate-gothic-no-3-d", sans-serif; }
+  li a {
+    font-family: "alternate-gothic-no-3-d", sans-serif; }
+
+/* ========== medium ========== */
+/* ========== large ========== */
+/* ========== text ========== */
+h1, h3 {
+  color: #dbc758; }
+
+h2 {
+  color: #f43d3d; }
+
+h4, h5, p, li {
+  color: #d1d5d5; }
+
+li a:visted {
+  color: #d1d5d5; }
+
+/* ========== backgrounds ========== */
+.main_bg {
+  background-color: rgba(57, 57, 57, 0.75); }
+
+header, footer {
+  background-color: #393939; }
+
+/* ========== global ========== */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.menu li {
+  display: inline-block;
+  padding: 1.5em 0.75em; }
+  .menu li a {
+    text-decoration: none; }
+  .menu li a:visited {
+    color: #d1d5d5; }
+
+/* ========== medium ========== */
+/* ========== large ========== */
+
+/*# sourceMappingURL=main.css.map */

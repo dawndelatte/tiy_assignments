@@ -1,0 +1,37 @@
+$lt_gold: rgb(219,199,88);
+$redish: rgb(244,61,61);
+$turq: rgb(10,162,170);
+$lt_grey: rgb(209,213,213);
+$trans_grey: rgba(57,57,57,0.75);
+$dk_grey: rgb(57,57,57);
+
+
+/* ========== text ========== */
+
+h1, h3 {
+	color: $lt_gold;
+}
+
+h2 {
+	color: $redish;
+}
+
+h4, h5, p, li {
+	color: $lt_grey;
+}
+
+ li a:visted {
+	color: $lt_grey;
+}
+
+
+/* ========== backgrounds ========== */
+
+.main_bg {
+
+	background-color: $trans_grey;
+}
+
+header, footer {
+	background-color: $dk_grey;
+}

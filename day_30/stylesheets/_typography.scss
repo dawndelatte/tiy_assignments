@@ -1,0 +1,57 @@
+
+/*Family*/
+
+$primary: "alternate-gothic-no-3-d", sans-serif;
+$secondary: "jaf-facitweb", sans-serif; 
+
+
+/*Size*/
+
+$head_size: 3em;
+$sub_size: 2.5em;
+$prim_size: 1em;
+$small: 0.5em;
+
+
+
+/* ========== global ========== */
+
+h1{
+	font-family: $primary;
+	font-size: $head_size;
+}
+
+h2 {
+	font-family: $primary;
+	font-size: $sub_size;
+}
+h3 {
+	font-family: $primary;
+	font-size: 2em;
+}
+h4 {
+	font-family: $secondary;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+h5 {
+	font-family: $secondary;
+	font-size: $small;
+}
+
+p, {
+	font-family: $secondary;
+	font-size: $prim_size;
+	line-height: 1.4em;
+}
+li {
+	font-family: $primary;
+	a {
+		font-family: $primary;
+	}
+}
+
+/* ========== medium ========== */
+
+
+/* ========== large ========== */
