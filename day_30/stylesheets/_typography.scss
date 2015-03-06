@@ -7,10 +7,10 @@ $secondary: "jaf-facitweb", sans-serif;
 
 /*Size*/
 
-$head_size: 3em;
+$head_size: 4em;
 $sub_size: 2.5em;
-$prim_size: 1em;
-$small: 0.5em;
+$prim_size: 0.8em;
+$small: 0.8em;
 
 
 
@@ -19,15 +19,18 @@ $small: 0.5em;
 h1{
 	font-family: $primary;
 	font-size: $head_size;
+	text-align: center;
 }
 
 h2 {
 	font-family: $primary;
 	font-size: $sub_size;
+	text-align: center;
 }
 h3 {
 	font-family: $primary;
 	font-size: 2em;
+	text-align: center;
 }
 h4 {
 	font-family: $secondary;
@@ -50,7 +53,12 @@ li {
 		font-family: $primary;
 	}
 }
-
+h2, h3 {
+	padding: 1em 1.5em;
+}
+h4, p {
+	padding: 0.5em 1.5em;
+}
 /* ========== medium ========== */
 
 

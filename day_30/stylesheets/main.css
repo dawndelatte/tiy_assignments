@@ -51,14 +51,6 @@ table {
   width: 80%;
   max-width: 1000px; }
 
-h4 {
-  width: 100%; }
-  h4 span {
-    float: right; }
-
-.col5 {
-  margin-top: 4em; }
-
 /* ========== medium ========== */
 /* ========== large ========== */
 /*Family*/
@@ -66,15 +58,18 @@ h4 {
 /* ========== global ========== */
 h1 {
   font-family: "alternate-gothic-no-3-d", sans-serif;
-  font-size: 3em; }
+  font-size: 4em;
+  text-align: center; }
 
 h2 {
   font-family: "alternate-gothic-no-3-d", sans-serif;
-  font-size: 2.5em; }
+  font-size: 2.5em;
+  text-align: center; }
 
 h3 {
   font-family: "alternate-gothic-no-3-d", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+  text-align: center; }
 
 h4 {
   font-family: "jaf-facitweb", sans-serif;
@@ -83,17 +78,23 @@ h4 {
 
 h5 {
   font-family: "jaf-facitweb", sans-serif;
-  font-size: 0.5em; }
+  font-size: 0.8em; }
 
 p {
   font-family: "jaf-facitweb", sans-serif;
-  font-size: 1em;
+  font-size: 0.8em;
   line-height: 1.4em; }
 
 li {
   font-family: "alternate-gothic-no-3-d", sans-serif; }
   li a {
     font-family: "alternate-gothic-no-3-d", sans-serif; }
+
+h2, h3 {
+  padding: 1em 1.5em; }
+
+h4, p {
+  padding: 0.5em 1.5em; }
 
 /* ========== medium ========== */
 /* ========== large ========== */
@@ -112,7 +113,7 @@ li a:visted {
 
 /* ========== backgrounds ========== */
 .main_bg {
-  background-color: rgba(57, 57, 57, 0.75); }
+  background-color: rgba(57, 57, 57, 0.8); }
 
 header, footer {
   background-color: #393939; }
@@ -130,6 +131,35 @@ header, footer {
     text-decoration: none; }
   .menu li a:visited {
     color: #d1d5d5; }
+
+h4 {
+  width: 100%; }
+  h4 span {
+    float: right; }
+
+.col5 {
+  margin-top: 4em; }
+
+.beer_wine {
+  background-image: url(http://assets3.thrillist.com/v1/image/1130716/size/tmg-slideshow_xl);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1em 0; }
+
+.food {
+  background-image: url(http://austinwetbus.com/wp-content/uploads/2014/04/abgb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1em 0; }
+
+.pies {
+  background-image: url(https://www.zagat.com/proxy/v1.4?m=image&a=resize&url=http%3A//storage.googleapis.com/zgt-article-ss/ABGBWhiteClamPie1.jpg&width=680&height=340&key=abbc09b7c840c10937a4db331422c98b);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1em 0; }
 
 /* ========== medium ========== */
 /* ========== large ========== */
