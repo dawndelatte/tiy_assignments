@@ -4,18 +4,11 @@
   // margin-right: $gut;
 }
 
-
-$col: 8.3%;
-$global: 100%;
-
-/* ========== global ========== */
-.wrapper {
-	margin: 0 auto;
-	width: 80%;
-	max-width: 1000px;
+@mixin margin-col ($col-num) {
+	margin-right: ($col * $col-num);
 }
 
 
-/* ========== medium ========== */
+$col: 8.1%;
+$global: 100%;
 
-/* ========== large ========== */

@@ -4,31 +4,36 @@
 		<meta charset="utf-8"> 
 		<link rel="stylesheet" href="stylesheets/main.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="responsive-nav.js-master/responsive-nav.js"></script>
 		<script src="//use.typekit.net/klr6eij.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 		<title>ABGB</title>
 	</head>
 	<body>
 		<header>
-			<nav class="menu">
-				<ul>
-					<li><a href="index.html">home</a></li>
-					<li><a href="menu.html">menu</a></li>
-					<li><a href="#">events</a></li>
-					<li><a href="#">#our ATX</a></li>
-					<li><a href="contact.html">contact</a></li>
-					<li><a href="#">store</a></li>
-				</ul>
-			</nav>
-		</header>
-		<section>
-		<!-- <div></div> -->
-		<!-- <div></div> -->
-		<!-- <div></div> -->
-		</section>
-<!-- 		<aside></aside>
-			<article></article> -->
-		<footer></footer>
+			<div class="logo"></div>
+
+		<div class="nav_container wrapper">	
+		<nav class="nav-collapse" id="top">
+			<ul>
+				<li><a class="button" href="index.html">home</a></li>
+				<li><a class="button" href="menu.html">menu</a></li>
+				<li><a class="button" href="contact.html">contact</a></li>
+			</ul>
+		</nav>
+		</div>
+	</header>
+
+		<footer>
+			<div class="location wrapper"><h5>Location: <br> 1305 West Oltorf <br> Austin, TX 78704</h5></div>
+			<div class="hours wrapper"><h5>Hours: <br> Tues–Thurs 11:30am–11pm <br> Sat 12pm–12am <br> Sun 12pm–10pm</h5></div>
+			<div class="top_btn">
+				<button><a href="#top">Back to Top</a></button>
+			</div>
+			<div class="social"></div>
+		</footer>
+		<script>
+  		var nav = responsiveNav(".nav-collapse");
+		</script>
 	</body>
 </html>
-

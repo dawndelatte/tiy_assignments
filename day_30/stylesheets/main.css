@@ -45,59 +45,93 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* ========== global ========== */
-.wrapper {
-  margin: 0 auto;
-  width: 80%;
-  max-width: 1000px; }
+/*! responsive-nav.js 1.0.34 by @viljamis */
+.nav_container {
+  overflow: hidden;
+  padding: 2em 0;
+  text-transform: uppercase; }
 
-/* ========== medium ========== */
-/* ========== large ========== */
-/*Family*/
-/*Size*/
-/* ========== global ========== */
-h1 {
+.nav-collapse ul {
+  margin: 0 auto; }
+
+.nav-collapse li {
+  padding: .4em; }
+  .nav-collapse li a {
+    text-decoration: none;
+    font-size: 1.5em; }
+    .nav-collapse li a:visited {
+      color: #d1d5d5; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 9999px; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  float: right;
+  background: #0aa2aa;
+  border: 2px solid white;
+  padding: 10px;
+  font-size: 1.25em;
+  color: white;
+  box-shadow: 4px 4px 0px 0px #aaa;
   font-family: "alternate-gothic-no-3-d", sans-serif;
-  font-size: 4em;
-  text-align: center; }
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-radius: 5px; }
+  .nav-toggle:hover {
+    left: 4px;
+    top: 4px;
+    box-shadow: none;
+    transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out; }
 
-h2 {
-  font-family: "alternate-gothic-no-3-d", sans-serif;
-  font-size: 2.5em;
-  text-align: center; }
+@media screen and (min-width: 660px) {
+  .nav-collapse li {
+    display: inline-block; } }
+@media screen and (min-width: 760px) {
+  .js .nav-collapse .button {
+    position: relative;
+    float: left;
+    background: #0aa2aa;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 1.25em;
+    color: white;
+    box-shadow: 4px 4px 0px 0px #aaa;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 5px; }
+    .js .nav-collapse .button:hover {
+      left: 4px;
+      top: 4px;
+      box-shadow: none;
+      transition: all .4s ease-in-out;
+      -moz-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out; }
 
-h3 {
-  font-family: "alternate-gothic-no-3-d", sans-serif;
-  font-size: 2em;
-  text-align: center; }
+  .js .nav-collapse.closed {
+    max-height: none; }
 
-h4 {
-  font-family: "jaf-facitweb", sans-serif;
-  font-weight: bold;
-  line-height: 1.2em; }
-
-h5 {
-  font-family: "jaf-facitweb", sans-serif;
-  font-size: 0.8em; }
-
-p {
-  font-family: "jaf-facitweb", sans-serif;
-  font-size: 0.8em;
-  line-height: 1.4em; }
-
-li {
-  font-family: "alternate-gothic-no-3-d", sans-serif; }
-  li a {
-    font-family: "alternate-gothic-no-3-d", sans-serif; }
-
-h2, h3 {
-  padding: 1em 1.5em; }
-
-h4, p {
-  padding: 0.5em 1.5em; }
-
-/* ========== medium ========== */
-/* ========== large ========== */
+  .nav-toggle {
+    display: none; } }
 /* ========== text ========== */
 h1, h3 {
   color: #dbc758; }
@@ -108,60 +142,225 @@ h2 {
 h4, h5, p, li {
   color: #d1d5d5; }
 
-li a:visted {
+li a {
   color: #d1d5d5; }
+  li a:visited {
+    color: #d1d5d5; }
 
 /* ========== backgrounds ========== */
 .main_bg {
-  background-color: rgba(57, 57, 57, 0.8); }
+  background-color: rgba(57, 57, 57, 0.9); }
 
 header, footer {
   background-color: #393939; }
 
+/*Family*/
+/*Size*/
+h1 {
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+  font-size: 4.5em;
+  text-align: center;
+  text-shadow: 4px 5px 3px rgba(1, 1, 1, 0.4); }
+
+h2 {
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+  font-size: 4em;
+  text-align: center;
+  padding-bottom: .5em; }
+
+h3 {
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+  font-size: 2.25em; }
+
+h4 {
+  font-family: "jaf-facitweb", sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1.5em;
+  width: 100%;
+  padding-top: 2em; }
+  h4 span {
+    float: right; }
+
+h5 {
+  font-family: "jaf-facitweb", sans-serif;
+  font-size: 1em;
+  line-height: 1.2em; }
+
+p {
+  font-family: "jaf-facitweb", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5em; }
+  p span {
+    float: right; }
+
+li {
+  font-family: "alternate-gothic-no-3-d", sans-serif; }
+  li a {
+    font-family: "alternate-gothic-no-3-d", sans-serif; }
+
+h3 {
+  padding: .5em .75em; }
+
+h4, p {
+  padding-left: 1.5em;
+  padding-right: 1.5em; }
+
+.wine_item {
+  font-weight: bold; }
+
+.happy_hour {
+  text-align: center; }
+
 /* ========== global ========== */
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 900px; }
+
+.col10 {
+  padding: 3em 0em; }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.menu li {
-  display: inline-block;
-  padding: 1.5em 0.75em; }
-  .menu li a {
-    text-decoration: none; }
-  .menu li a:visited {
-    color: #d1d5d5; }
+.sep_line {
+  width: 90%;
+  margin: 0 auto;
+  height: 0.1em;
+  background: #dbc758;
+  margin-top: 2em;
+  margin-bottom: 2em; }
 
-h4 {
-  width: 100%; }
-  h4 span {
-    float: right; }
+.section_description {
+  padding-bottom: 1em; }
 
-.col5 {
-  margin-top: 4em; }
+.wine_intro {
+  padding-bottom: 1em;
+  margin: 0 auto;
+  width: 90%; }
+
+.wine_list {
+  max-width: 600px;
+  margin: 0 auto; }
+
+.pizza_list {
+  max-width: 600px; }
 
 .beer_wine {
-  background-image: url(http://assets3.thrillist.com/v1/image/1130716/size/tmg-slideshow_xl);
+  background-image: url(http://texasbrewandbarbecue.com/wp-content/uploads/2014/08/IMG_1629-e1408225730157.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  padding: 1em 0; }
+  background-position: center center;
+  padding: 2em 0; }
 
 .food {
-  background-image: url(http://austinwetbus.com/wp-content/uploads/2014/04/abgb.jpg);
+  background-image: url(http://brewing-genius.com/wp-content/uploads/2011/08/brewery1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  padding: 1em 0; }
+  background-position: center center;
+  padding: 2em 0; }
 
 .pies {
-  background-image: url(https://www.zagat.com/proxy/v1.4?m=image&a=resize&url=http%3A//storage.googleapis.com/zgt-article-ss/ABGBWhiteClamPie1.jpg&width=680&height=340&key=abbc09b7c840c10937a4db331422c98b);
+  background-image: url(http://a4.urbancdn.com/w/s/Xc/zdIyb7DHoRPToA.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  padding: 1em 0; }
+  background-position: center center;
+  padding: 2em 0; }
+
+footer {
+  overflow: hidden;
+  margin: 0 auto; }
+
+.location, .hours, .top_btn {
+  float: left;
+  padding: 2em 2em;
+  width: 30%; }
+
+.location {
+  margin-right: 10%; }
+
+button {
+  position: relative;
+  background: #0aa2aa;
+  border: 2px solid white;
+  padding: 10px;
+  font-size: 1.25em;
+  color: white;
+  box-shadow: 4px 4px 0px 0px #aaa;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none; }
+  button:hover {
+    left: 4px;
+    top: 4px;
+    box-shadow: none;
+    transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out; }
+
+.top_btn a {
+  text-decoration: none; }
+  .top_btn a:visited {
+    color: white; }
+
+/* ========== CONTACT PAGE ========== */
+.contact {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.contact_list {
+  padding-bottom: 1.5em; }
+  .contact_list a {
+    color: #d1d5d5;
+    text-decoration: none; }
+    .contact_list a:visited {
+      color: white; }
+    .contact_list a:hover {
+      font-weight: bold; }
+
+.map {
+  max-width: 100%;
+  padding-bottom: 2em;
+  padding-left: 2em; }
+
+.contact_page {
+  background-image: url(http://www.gannett-cdn.com/-mm-/56724d1729b34ff05bf1e8918c85d3d86d5d5c25/c=0-108-600-446&r=x1803&c=3200x1800/local/-/media/KVUE/KVUE/2014/07/01/1404249200000-Bangers-Sausage-Dog-Friendly-104903.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 2em 0; }
 
 /* ========== medium ========== */
+@media screen and (min-width: 760px) {
+  .col_md {
+    width: 45%;
+    margin-right: 8%;
+    display: inline-block;
+    vertical-align: top; }
+    .col_md:last-of-type {
+      margin-right: 0; } }
 /* ========== large ========== */
+@media screen and (min-width: 900px) {
+  .col5 {
+    width: 44.55%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10%; }
+    .col5:last-of-type {
+      margin-right: 0; }
+
+  h4, p {
+    padding-left: 2.5em;
+    padding-right: 2.5em; }
+
+  h3 {
+    padding-left: 1em;
+    font-size: 2.75em; } }
 
 /*# sourceMappingURL=main.css.map */

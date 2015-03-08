@@ -7,45 +7,58 @@ $secondary: "jaf-facitweb", sans-serif;
 
 /*Size*/
 
-$head_size: 4em;
-$sub_size: 2.5em;
-$prim_size: 0.8em;
-$small: 0.8em;
+$head_size: 4.5em;
+$sub_size: 4em;
+$prim_size: 1.1em;
+$small: 1em;
 
 
-
-/* ========== global ========== */
 
 h1{
 	font-family: $primary;
 	font-size: $head_size;
 	text-align: center;
+  	text-shadow: 4px 5px 3px rgba(1, 1, 1, 0.4);
 }
 
 h2 {
 	font-family: $primary;
 	font-size: $sub_size;
 	text-align: center;
+	padding-bottom: .5em;
 }
 h3 {
 	font-family: $primary;
-	font-size: 2em;
-	text-align: center;
+	font-size: 2.25em;
+	// text-align: center;
 }
-h4 {
+h4, {
 	font-family: $secondary;
+	font-size: $prim_size;
 	font-weight: bold;
-	line-height: 1.2em;
+	line-height: 1.5em;
+	width: 100%;
+	padding-top: 2em;
+
+	span {
+		float: right;
+	}
 }
+
 h5 {
 	font-family: $secondary;
 	font-size: $small;
+	line-height: 1.2em;
 }
 
 p, {
 	font-family: $secondary;
 	font-size: $prim_size;
-	line-height: 1.4em;
+	line-height: 1.5em;
+
+	span {
+		float: right;
+	}
 }
 li {
 	font-family: $primary;
@@ -53,13 +66,17 @@ li {
 		font-family: $primary;
 	}
 }
-h2, h3 {
-	padding: 1em 1.5em;
+	h3 {
+	padding: .5em .75em;
 }
-h4, p {
-	padding: 0.5em 1.5em;
+h4, p, {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
 }
-/* ========== medium ========== */
 
-
-/* ========== large ========== */
+.wine_item {
+	font-weight: bold;
+}
+.happy_hour {
+	text-align: center;
+}
