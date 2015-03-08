@@ -238,6 +238,12 @@ h4, p {
 button {
   font-family: "alternate-gothic-no-3-d", sans-serif; }
 
+.always h3, .sometimes h3 {
+  padding-bottom: 0; }
+
+.sometimes h3 {
+  padding-top: 2em; }
+
 /* ========== global ========== */
 .wrapper {
   margin: 0 auto;
@@ -261,7 +267,7 @@ button {
   margin-bottom: 2em; }
 
 .section_description {
-  padding-bottom: 1em; }
+  padding-bottom: 2em; }
 
 .wine_intro {
   padding-bottom: 1em;
@@ -276,7 +282,7 @@ button {
   max-width: 500px; }
 
 .beer_wine {
-  background-image: url(http://texasbrewandbarbecue.com/wp-content/uploads/2014/08/IMG_1629-e1408225730157.jpg);
+  background-image: url(http://static.pexels.com/wp-content/uploads/2014/07/beer-beer-garden-drink-18621.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

@@ -30,7 +30,6 @@ h2 {
 h3 {
 	font-family: $primary;
 	font-size: 2.25em;
-	// text-align: center;
 }
 h4, {
 	font-family: $secondary;
@@ -80,9 +79,6 @@ h4, p, {
 		font-weight: 700;
 	}
 }
-// .wine_item span {
-// 	font-weight: 700;
-// }
 .happy_hour {
 	text-align: center;
 }
@@ -94,5 +90,17 @@ h4, p, {
 	}
 button {
 	font-family: $primary;
+}
+
+.always, .sometimes {
+	h3 {
+		padding-bottom: 0;
+
+	}
+}
+.sometimes {
+	h3 {
+		padding-top: 2em;
+	}
 }
 

@@ -24,7 +24,7 @@
 
 }
 .section_description {
-	padding-bottom: 1em;
+	padding-bottom: 2em;
 }
 .wine_intro {
 	padding-bottom: 1em;
@@ -40,7 +40,8 @@
 }
 
 .beer_wine {
-	background-image: url(http://texasbrewandbarbecue.com/wp-content/uploads/2014/08/IMG_1629-e1408225730157.jpg);
+
+	background-image: url(http://static.pexels.com/wp-content/uploads/2014/07/beer-beer-garden-drink-18621.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -120,6 +121,7 @@ button {
 	padding-left: 2em;
 	padding-bottom: 2em;
 }
+
 /* ========== CONTACT PAGE ========== */
 .contact  {
 	padding-top: 0 ;
@@ -175,6 +177,7 @@ button {
 }
 
 /* ========== medium ========== */
+
 @media screen and (min-width: 760px) {
 
 h1 {
@@ -194,6 +197,7 @@ h1 {
 
 }
 /* ========== large ========== */
+
 @media screen and (min-width: 900px) {
 	.logo {
 		float: left;
@@ -237,6 +241,5 @@ h1 {
 	width: 100%;
 	padding-right: 0;
 	}
-
 
 }
