@@ -48,7 +48,7 @@ table {
 /*! responsive-nav.js 1.0.34 by @viljamis */
 .nav_container {
   overflow: hidden;
-  padding: 2em 0;
+  padding: 2em 0.5em;
   text-transform: uppercase; }
 
 .nav-collapse ul {
@@ -68,7 +68,9 @@ table {
   position: absolute;
   display: block;
   overflow: hidden;
-  zoom: 1; }
+  zoom: 1;
+  width: 75%;
+  margin: 0 auto; }
 
 .nav-collapse.opened {
   max-height: 9999px; }
@@ -82,6 +84,7 @@ table {
   -o-user-select: none;
   user-select: none;
   text-decoration: none;
+  position: relative;
   float: right;
   background: #0aa2aa;
   border: 2px solid white;
@@ -147,9 +150,22 @@ li a {
   li a:visited {
     color: #d1d5d5; }
 
+.about h3 {
+  color: #f43d3d; }
+.about a {
+  color: #d1d5d5;
+  text-decoration: none; }
+  .about a:hover {
+    font-weight: bold; }
+  .about a:visited {
+    color: #d1d5d5; }
+
 /* ========== backgrounds ========== */
 .main_bg {
   background-color: rgba(57, 57, 57, 0.9); }
+
+body {
+  background-color: #d1d5d5; }
 
 header, footer {
   background-color: #393939; }
@@ -158,9 +174,10 @@ header, footer {
 /*Size*/
 h1 {
   font-family: "alternate-gothic-no-3-d", sans-serif;
-  font-size: 4.5em;
+  font-size: 3.5em;
   text-align: center;
-  text-shadow: 4px 5px 3px rgba(1, 1, 1, 0.4); }
+  text-shadow: 4px 5px 3px rgba(1, 1, 1, 0.4);
+  padding: 0.5em 0.5em; }
 
 h2 {
   font-family: "alternate-gothic-no-3-d", sans-serif;
@@ -212,6 +229,10 @@ h4, p {
 .happy_hour {
   text-align: center; }
 
+.about h3 {
+  font-size: 2em;
+  padding-left: 1em; }
+
 /* ========== global ========== */
 .wrapper {
   margin: 0 auto;
@@ -247,7 +268,7 @@ h4, p {
   margin: 0 auto; }
 
 .pizza_list {
-  max-width: 600px; }
+  max-width: 500px; }
 
 .beer_wine {
   background-image: url(http://texasbrewandbarbecue.com/wp-content/uploads/2014/08/IMG_1629-e1408225730157.jpg);
@@ -271,16 +292,15 @@ h4, p {
   padding: 2em 0; }
 
 footer {
-  overflow: hidden;
-  margin: 0 auto; }
+  overflow: hidden; }
+  footer .location, footer .hours, footer .top_btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2em 1em;
+    width: 50%; }
 
-.location, .hours, .top_btn {
-  float: left;
-  padding: 2em 2em;
-  width: 30%; }
-
-.location {
-  margin-right: 10%; }
+.threes .location, .threes .hours, .threes .top_btn {
+  width: 33.333%; }
 
 button {
   position: relative;
@@ -309,6 +329,10 @@ button {
   .top_btn a:visited {
     color: white; }
 
+.contact_btn {
+  float: right;
+  width: 100%; }
+
 /* ========== CONTACT PAGE ========== */
 .contact {
   padding-top: 0;
@@ -336,8 +360,24 @@ button {
   background-repeat: no-repeat;
   padding: 2em 0; }
 
+/* ========== HOME PAGE ========== */
+.home {
+  background-image: url(http://www.thefreshfind.com/wp-content/uploads/2014/02/IMG_9306.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 2em 0; }
+
+.about {
+  padding: 2em 0; }
+  .about:last-of-type {
+    margin-top: 2em; }
+
 /* ========== medium ========== */
 @media screen and (min-width: 760px) {
+  h1 {
+    font-size: 4.5em; }
+
   .col_md {
     width: 45%;
     margin-right: 8%;
@@ -361,6 +401,9 @@ button {
 
   h3 {
     padding-left: 1em;
-    font-size: 2.75em; } }
+    font-size: 2.75em; }
+
+  .about h3 {
+    padding-left: 1.4em; } }
 
 /*# sourceMappingURL=main.css.map */

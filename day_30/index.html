@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8"> 
+		<meta charset="utf-8">
 		<link rel="stylesheet" href="stylesheets/main.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="responsive-nav.js-master/responsive-nav.js"></script>
@@ -11,29 +11,57 @@
 	</head>
 	<body>
 		<header>
-			<div class="logo"></div>
-
-		<div class="nav_container wrapper">	
-		<nav class="nav-collapse" id="top">
-			<ul>
-				<li><a class="button" href="index.html">home</a></li>
-				<li><a class="button" href="menu.html">menu</a></li>
-				<li><a class="button" href="contact.html">contact</a></li>
-			</ul>
-		</nav>
-		</div>
-	</header>
-
-		<footer>
-			<div class="location wrapper"><h5>Location: <br> 1305 West Oltorf <br> Austin, TX 78704</h5></div>
-			<div class="hours wrapper"><h5>Hours: <br> Tues–Thurs 11:30am–11pm <br> Sat 12pm–12am <br> Sun 12pm–10pm</h5></div>
-			<div class="top_btn">
-				<button><a href="#top">Back to Top</a></button>
+<!-- 			<div class="logo">
+				<img src="images/logo.jpg">
+			</div> -->
+			<div class="nav_container wrapper">
+				<nav class="nav-collapse" id="top">
+					<ul>
+						<li><a class="button" href="index.html">home</a></li>
+						<li><a class="button" href="menu.html">menu</a></li>
+						<li><a class="button" href="contact.html">contact</a></li>
+						<li><a class="button" href="#">events</a></li>
+						<li><a class="button" href="#">#outatx</a></li>
+						<li><a class="button" href="#">store</a></li>
+					</ul>
+				</nav>
 			</div>
-			<div class="social"></div>
+		</header>
+		<section class="home">
+			<div class="about main_bg wrapper">
+				<h1>Austin Beer Garden Brewing Co.</h1>
+				<p>We offer ten homebrewed beers on tap as well as pizza, salad, and sandwiches made with fresh, local ingredients. We love this city, and we know you do to. Come join us as we celebrate one of Austin's favorite pastimes, drinking good beer, watching live music, and hanging out with friends. </p><br>
+				</div>
+				<div class="about main_bg wrapper">
+				<h3>Check out our menu partners!</h3>
+				<div class="col5">
+					<p><a href="https://www.jbgorganic.com/">Johnson's Backyard Garden</a></p>
+					<p><a href="http://www.antonellischeese.com/">Antonellis Cheese Shop</a></p>
+					<p><a href="http://www.tenderbelly.com/">Tender Belly</a></p>
+					<p><a href="http://goodseedburger.com/">Good Seed</a></p>
+					<p><a href="http://www.farmtotabletx.com/">Farm to Table</a></p>
+					<p><a href="http://vitalfarms.com/">Vital Farms</a></p>
+				</div>
+				<div class="col5">
+					<p><a href="http://www.smartflourfoods.com/">Smart Flour</a></p>
+					<p><a href="http://www.creminelli.com/">Creminelli</a></p>
+					<p><a href="http://laquercia.us/">La Quercia</a></p>
+					<p><a href="http://www.purelucktexas.com/">Pure Luck Farm and Dairy</a></p>
+					<p><a href="http://easytigeraustin.com/">Easy Tiger Bake Shop</a></p>
+				</div>
+			</div>
+		</section>
+		<footer>
+		<div class="foot_wrap">
+			<div class="location wrapper"><h5>Location: <br> 1305 West Oltorf <br> Austin, TX 78704</h5></div><!--
+			--><div class="hours wrapper"><h5>Hours: <br> Tues–Thurs 11:30am–11pm <br> Sat 12pm–12am <br> Sun 12pm–10pm</h5></div>
+			<!-- 			<div class="top_btn">
+					<button><a href="#top">Back to Top</a></button>
+			</div> -->
+			</div>
 		</footer>
 		<script>
-  		var nav = responsiveNav(".nav-collapse");
+		var nav = responsiveNav(".nav-collapse");
 		</script>
 	</body>
 </html>

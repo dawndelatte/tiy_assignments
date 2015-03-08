@@ -13,6 +13,7 @@
 		-moz-box-sizing: border-box;
 			box-sizing: border-box;
 }
+
 .sep_line {
 	width: 90%;
 	margin: 0 auto;
@@ -35,7 +36,7 @@
 	margin: 0 auto;
 }
 .pizza_list {
-	max-width: 600px;
+	max-width: 500px;
 }
 
 .beer_wine {
@@ -63,23 +64,25 @@
 }
 footer {
 	overflow: hidden;
-	margin: 0 auto;
 
-}
 .location, .hours, .top_btn {
-	float: left;
-	padding: 2em 2em;
-	width: 30%;
-	// margin: 0 auto;
+	display: inline-block;
+	vertical-align: top;
+	padding: 2em 1em;
+	width: 50%;
+
+	}
 }
-.location {
-	margin-right: 10%;
+
+.threes {
+	.location, .hours, .top_btn {
+		width: 33.333%;
+	}
+
 }
 
 button {
   position:relative;
-  // margin-top:10%;
-  // margin-right: 20px;
   background:#0aa2aa  ;
   border: 2px solid white;
   padding:10px;
@@ -108,6 +111,11 @@ button {
 		color: white;
 	}
 }
+	.contact_btn {
+		
+		float:right;
+		width: 100%;
+	}
 
 /* ========== CONTACT PAGE ========== */
 .contact  {
@@ -142,9 +150,34 @@ button {
 		background-repeat: no-repeat;
 		padding: 2em 0;
 	}
+
+
+/* ========== HOME PAGE ========== */
+
+.home {
+	background-image: url(http://www.thefreshfind.com/wp-content/uploads/2014/02/IMG_9306.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 2em 0;
+}
+.about {
+	padding: 2em 0;
+
+	&:last-of-type {
+		margin-top: 2em;
+	}
+
+}
+
+
+
 /* ========== medium ========== */
 @media screen and (min-width: 760px) {
 
+h1 {
+	font-size: 4.5em;
+}
 
 	.col_md {
 		
@@ -181,6 +214,10 @@ button {
 	h3 {
 		padding-left: 1em;
 		font-size: 2.75em;
+	}
+
+	.about h3 {
+		padding-left: 1.4em;
 	}
 
 }

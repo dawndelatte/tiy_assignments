@@ -2,7 +2,7 @@
 
   .nav_container {
     overflow: hidden;
-    padding: 2em 0;
+    padding: 2em 0.5em;
     text-transform: uppercase;
   }
 
@@ -30,11 +30,12 @@
   display: block;
   overflow: hidden;
   zoom: 1;
+        width: 75%;
+    margin: 0 auto;
 }
 
 .nav-collapse.opened {
   max-height: 9999px;
-
 }
 
 .nav-toggle {
@@ -46,9 +47,8 @@
   -o-user-select: none;
   user-select: none;
   text-decoration: none;
-  // position:relative;
+  position:relative;
   float: right;
-  // margin: 1em 1em;
   background:#0aa2aa  ;
   border: 2px solid white;
   padding:10px;

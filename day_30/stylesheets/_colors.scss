@@ -27,6 +27,25 @@ h4, h5, p, li {
 	color: $lt_grey;
 	}
 }
+.about {
+
+	
+		h3 {
+			color: $redish;
+		}
+
+	a {
+		color: $lt_grey;
+		text-decoration: none;
+
+		&:hover {
+			font-weight: bold;
+		}
+		&:visited {
+			color: $lt_grey;
+		}
+	}
+}
 
 
 /* ========== backgrounds ========== */
@@ -34,6 +53,10 @@ h4, h5, p, li {
 .main_bg {
 
 	background-color: $trans_grey;
+}
+
+body {
+	background-color: $lt_grey;
 }
 
 header, footer {
