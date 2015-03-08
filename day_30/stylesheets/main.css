@@ -48,11 +48,8 @@ table {
 /*! responsive-nav.js 1.0.34 by @viljamis */
 .nav_container {
   overflow: hidden;
-  padding: 2em 0.5em;
+  padding: 2em 2em;
   text-transform: uppercase; }
-
-.nav-collapse ul {
-  margin: 0 auto; }
 
 .nav-collapse li {
   padding: .4em; }
@@ -68,9 +65,7 @@ table {
   position: absolute;
   display: block;
   overflow: hidden;
-  zoom: 1;
-  width: 75%;
-  margin: 0 auto; }
+  zoom: 1; }
 
 .nav-collapse.opened {
   max-height: 9999px; }
@@ -109,6 +104,9 @@ table {
   .nav-collapse li {
     display: inline-block; } }
 @media screen and (min-width: 760px) {
+  .nav-collapse ul {
+    float: right; }
+
   .js .nav-collapse .button {
     position: relative;
     float: left;
@@ -160,9 +158,12 @@ li a {
   .about a:visited {
     color: #d1d5d5; }
 
+.menu_items p {
+  color: #aaa; }
+
 /* ========== backgrounds ========== */
 .main_bg {
-  background-color: rgba(57, 57, 57, 0.9); }
+  background-color: rgba(57, 57, 57, 0.95); }
 
 body {
   background-color: #d1d5d5; }
@@ -207,7 +208,8 @@ h5 {
 p {
   font-family: "jaf-facitweb", sans-serif;
   font-size: 1.1em;
-  line-height: 1.5em; }
+  font-weight: 200;
+  line-height: 1.75em; }
   p span {
     float: right; }
 
@@ -220,11 +222,11 @@ h3 {
   padding: .5em .75em; }
 
 h4, p {
-  padding-left: 1.5em;
+  padding-left: 1.25em;
   padding-right: 1.5em; }
 
-.wine_item {
-  font-weight: bold; }
+.wine_list p span {
+  font-weight: 700; }
 
 .happy_hour {
   text-align: center; }
@@ -232,6 +234,9 @@ h4, p {
 .about h3 {
   font-size: 2em;
   padding-left: 1em; }
+
+button {
+  font-family: "alternate-gothic-no-3-d", sans-serif; }
 
 /* ========== global ========== */
 .wrapper {
@@ -281,7 +286,7 @@ h4, p {
   background-image: url(http://brewing-genius.com/wp-content/uploads/2011/08/brewery1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   padding: 2em 0; }
 
 .pies {
@@ -292,7 +297,8 @@ h4, p {
   padding: 2em 0; }
 
 footer {
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: center; }
   footer .location, footer .hours, footer .top_btn {
     display: inline-block;
     vertical-align: top;
@@ -310,7 +316,6 @@ button {
   font-size: 1.25em;
   color: white;
   box-shadow: 4px 4px 0px 0px #aaa;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -333,6 +338,11 @@ button {
   float: right;
   width: 100%; }
 
+.logo {
+  text-align: center;
+  padding-left: 2em;
+  padding-bottom: 2em; }
+
 /* ========== CONTACT PAGE ========== */
 .contact {
   padding-top: 0;
@@ -350,8 +360,9 @@ button {
 
 .map {
   max-width: 100%;
-  padding-bottom: 2em;
-  padding-left: 2em; }
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em; }
 
 .contact_page {
   background-image: url(http://www.gannett-cdn.com/-mm-/56724d1729b34ff05bf1e8918c85d3d86d5d5c25/c=0-108-600-446&r=x1803&c=3200x1800/local/-/media/KVUE/KVUE/2014/07/01/1404249200000-Bangers-Sausage-Dog-Friendly-104903.jpeg);
@@ -387,6 +398,17 @@ button {
       margin-right: 0; } }
 /* ========== large ========== */
 @media screen and (min-width: 900px) {
+  .logo {
+    float: left;
+    padding-left: 0;
+    padding-bottom: 0; }
+
+  .col4 {
+    width: 32.4%;
+    margin-right: 16.2%;
+    display: inline-block;
+    vertical-align: top; }
+
   .col5 {
     width: 44.55%;
     display: inline-block;
@@ -404,6 +426,10 @@ button {
     font-size: 2.75em; }
 
   .about h3 {
-    padding-left: 1.4em; } }
+    padding-left: 1.4em; }
+
+  .map {
+    width: 100%;
+    padding-right: 0; } }
 
 /*# sourceMappingURL=main.css.map */

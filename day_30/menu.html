@@ -11,11 +11,9 @@
 	</head>
 	<body>
 		<header>
-<!-- 			<div class="logo">
-				<img src="images/logo.jpg">
-			</div> -->
-			<div class="nav_container wrapper">
-				<nav class="nav-collapse" id="top">
+			<div class="nav_container" id="top">
+			<div class="logo"><img src="images/logo.jpg"></div>
+				<nav class="nav-collapse">
 					<ul>
 						<li><a class="button" href="index.html">home</a></li>
 						<li><a class="button" href="menu.html">menu</a></li>
@@ -23,12 +21,14 @@
 						<li><a class="button" href="#">events</a></li>
 						<li><a class="button" href="#">#outatx</a></li>
 						<li><a class="button" href="#">store</a></li>
-<!-- 						<li><a href="#food_menu">beer</a></li>
+					</ul>
+<!-- 					<ul>
+					<li><a href="#food_menu">beer</a></li>
 						<li><a href="#food_menu">wine</a></li>
 						<li><a href="#food_menu">appetizers</a></li>
 						<li><a href="#food_menu">salads</a></li>
-						<li><a href="#specials_menu">pizza/specials</a></li> -->
-					</ul>
+						<li><a href="#specials_menu">pizza/specials</a></li>
+						</ul> -->
 				</nav>
 			</div>
 		</header>
@@ -40,7 +40,7 @@
 					<h2>BEER</h2>
 					<h3 class="happy_hour">Happy Hour TUES–FRI 3–7pm $1 off pints</h3>
 					<p class="section_description">We’ll do “Always” beers and “Sometimes” beers. So, some beers will always be on tap. And some will come and go. And come back. We’ll brew the styles that we love and have brewed over the years. We love dry beers and we really love dry, hoppy beers like IPA and German-style Pils. We’ll accompany them with Belgian-style Ales like Tripel and Saison. And we’ll be traditional, seasonal, “collaborational”, and a little unpredictable. Come for your favorite, or come find a new one.</p>
-					<div class="always">
+					<div class="always menu_items">
 						<h3>Always</h3>
 						<div class="col_md col5">
 							<h4>"HELL YES" Helles <span>$5</span></h4><p>Bavarian-style lager–simple and elegant</p><!--
@@ -53,7 +53,7 @@
 						</div>
 						<!-- 					<div class="sep_line"></div> -->
 					</div>
-					<div class="sometimes">
+					<div class="sometimes menu_items">
 						<h3>Sometimes</h3>
 						<div class="col_md col5">
 							<h4>"CHOOBI CHOC"" Beigo Pale Ale <span>$5</span></h4><p>Second collaboration with Tim Schwartz</p>
@@ -70,12 +70,12 @@
 					<h2>WINE</h2>
 					<p class="wine_intro">We have wine available by the bottle and by the glass. We offer the following:</p>
 					<div class="wine_list">
-						<p>Clifford Bay Sauvignon Blanc <span class="wine_item">$23/$6</span></p>
-						<p>Bollini Pinot Grigio <span class="wine_item">$26/$7</span></p>
-						<p>Kendall Jackson Chardonnay <span class="wine_item">$23/$6</span></p>
-						<p>Aquinas Pinot Noir <span class="wine_item">$34/$9</span></p>
-						<p>Alta Vista Malbec <span class="wine_item">$23/$6</span></p>
-						<p>Di Majo Norante Sangiovese <span class="wine_item">$23/$6</span></p>
+						<p>Clifford Bay <strong>Sauvignon Blanc</strong> <span class="wine_item">$23/$6</span></p>
+						<p>Bollini <strong>Pinot Grigio</strong> <span class="wine_item">$26/$7</span></p>
+						<p>Kendall Jackson <strong>Chardonnay</strong> <span class="wine_item">$23/$6</span></p>
+						<p>Aquinas <strong>Pinot Noir</strong> <span class="wine_item">$34/$9</span></p>
+						<p>Alta Vista <strong>Malbec</strong> <span class="wine_item">$23/$6</span></p>
+						<p>Di Majo Norante <strong>Sangiovese</strong> <span class="wine_item">$23/$6</span></p>
 					</div>
 				</div>
 			</div>
@@ -113,7 +113,7 @@
 				<div>
 					<div class="sep_line"></div>
 					<h3>SALADS</h3>
-					<div class="col_md col5">
+					<div class="col_md col5 menu_items">
 						<h4>Caprese Salad <span>$8</span></h4>
 						<h4>Caesar Salad * <span>$5 / $8</span></h4>
 						<h4>Arugula Salad <span>$9</span></h4><p>with dandelion greens, grapefruit, red onions, dates, almonds, and shaved Parmesan.</p>
@@ -121,7 +121,7 @@
 						<h4>Chicken Salad Salad (with pecans) <span>$9</span></h4><p>with mixed greens, tomatoes, cucumbers, and smoked olive oil.</p>
 						<h4>Butter Lettuce Salad <span>$8</span></h4><p>with red and gold beets, avocados, ruby tangos, walnuts, goat cheese, honey, and poppy seeds.</p>
 					</div>
-					<div class="col_md col5">
+					<div class="col_md col5 menu_items">
 						<h4>Crisp Prosciutto Caprese Salad <span>$9</span></h4><p>with grape tomatoes, green-garlic pesto, marinated ciliegine mozzarella, pine nuts, and balsamic reduction.</p>
 						<h4>Avocado Caprese Salad <span>$8</span></h4><p>with pesto, grape tomatoes, marinated ciliegine mozzarella, grapefruit, pumpkin seeds, basil, and white balsamic reduction.</p>
 						<h4>Red + Green Kale Salad <span>$8</span></h4><p>with quinoa, roasted meyer lemons, pecans, goat cheese, avocados, and chick peas.</p>
@@ -131,14 +131,14 @@
 				<div>
 					<div class="sep_line"></div>
 					<h3>SANDWICHES</h3>
-					<div class="col_md col5">
+					<div class="col_md col5 menu_items">
 						<h4>Muffaletta<span>$10</span></h4><p>with ham, mortadella, provolone, and our house-made olive salad on ciabatta bread with chips.</p>
 						<h4>Cuban Reuben <span>$10</span></h4><p>with pulled pork, ham, swiss cheese, pickle, dijon, and house-made sauerkraut on ciabatta with potato salad.</p>
 						<h4>Smoked Turkey Reuben <span>$10</span></h4><p>with house-made sauerkraut, fontina and Russian dressing on rye, served with potato salad.</p>
 						<h4>Bresaola Caprese Sandwich<span>$10</span></h4><p>with fresh basil, balsamic reduction, fresh mozzarella, and tomatoes on a baguette with a small Caesar salad*.</p>
 						<h4>Chicken Salad Sammy (with pecans) <span>$10</span></h4><p>with tomatoes, sprouts, horseradish mayo on rye with potato chips.</p>
 					</div>
-					<div class="col_md col5">
+					<div class="col_md col5 menu_items">
 						<h4>Marscarpone Peanut Butter + Apple <span>$10</span></h4><p>with cheddar, avocados, and spinach on sourdough with cole slaw.</p>
 						<h4>Crisp Prosciutto + Pear <span>$10</span></h4><p>with fig preserves, arugula, and Gorgonzola on sourdough with cole slaw.</p>
 						<h4>Meatball Sub  <span>$10</span></h4><p>with provolone on a hoagie with a small Caesar salad*.</p>
@@ -147,10 +147,11 @@
 				</div>
 				<div>
 					<div class="sep_line"></div>
+					<div class="menu_items">
 					<h3 id="specials_menu">Lunch Special 11:30am–3:30pm</h3>
 					<h4 class="pizza_list">Slice + Caesar + Drink (soda or tea) <span>$7</span></h4><p class="pizza_list">choose cheese, calabrese, sausage, margherita, or special for your slice.</p>
 					<h4 class="pizza_list">"Fest Bier" Brat + Beer <span>$7</span></h4>
-				</div>
+					</div>
 			</section>
 			<!-- This is the last section PIZZA + SPECIAL PIES -->
 			<section class="pies">
@@ -193,8 +194,8 @@
 		</section>
 		<div class="foot_wrap">
 		<footer class="threes">
-			<div class="location wrapper"><h5>Location: <br> 1305 West Oltorf <br> Austin, TX 78704</h5></div><!--
-			--><div class="hours wrapper"><h5>Hours: <br> Tues–Thurs 11:30am–11pm <br> Sat 12pm–12am <br> Sun 12pm–10pm</h5></div><!--
+			<div class="location"><h5>Location: <br> 1305 West Oltorf <br> Austin, TX 78704</h5></div><!--
+			--><div class="hours"><h5>Hours: <br> Tues–Thurs 11:30am–11pm <br> Sat 12pm–12am <br> Sun 12pm–10pm</h5></div><!--
 			--><div class="top_btn wrapper">
 				<button><a href="#top">Back to Top</a></button>
 			</div>

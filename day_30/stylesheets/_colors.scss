@@ -2,7 +2,7 @@ $lt_gold: rgb(219,199,88);
 $redish: rgb(244,61,61);
 $turq: rgb(10,162,170);
 $lt_grey: rgb(209,213,213);
-$trans_grey: rgba(57,57,57,0.9);
+$trans_grey: rgba(57,57,57,0.95);
 $dk_grey: rgb(57,57,57);
 
 
@@ -47,6 +47,11 @@ h4, h5, p, li {
 	}
 }
 
+.menu_items {
+	p{
+		color:#aaa;
+	}
+}
 
 /* ========== backgrounds ========== */
 
