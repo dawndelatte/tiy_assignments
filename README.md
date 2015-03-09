@@ -14,3 +14,6 @@
 
 ##Week Four
    * [day 16 - Surf & Paddle RWD](http://dawndelatte.github.io/tiy_assignments/day_16/surf_paddle_rwd/)
+
+###Week Six
+   * [day 30 - ABGB website redesign](http://dawndelatte.github.io/tiy_assignments/day_30/)
