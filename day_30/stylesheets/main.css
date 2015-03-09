@@ -225,9 +225,6 @@ h4, p {
   padding-left: 1.25em;
   padding-right: 1.5em; }
 
-.wine_list p span {
-  font-weight: 700; }
-
 .happy_hour {
   text-align: center; }
 
@@ -243,6 +240,9 @@ button {
 
 .sometimes h3 {
   padding-top: 2em; }
+
+.wine_item {
+  font-weight: bold; }
 
 /* ========== global ========== */
 .wrapper {
@@ -390,7 +390,7 @@ button {
   .about:last-of-type {
     margin-top: 2em; }
 
-/* ========== medium ========== */
+/* =============== medium =============== */
 @media screen and (min-width: 760px) {
   h1 {
     font-size: 4.5em; }
@@ -402,7 +402,7 @@ button {
     vertical-align: top; }
     .col_md:last-of-type {
       margin-right: 0; } }
-/* ========== large ========== */
+/* ================ large =============== */
 @media screen and (min-width: 900px) {
   .logo {
     float: left;

@@ -1,8 +1,7 @@
 /*Family*/
 
 $primary: "alternate-gothic-no-3-d", sans-serif;
-$secondary: "jaf-facitweb", sans-serif; 
-
+$secondary: "jaf-facitweb", sans-serif;
 
 /*Size*/
 
@@ -11,96 +10,101 @@ $sub_size: 4em;
 $prim_size: 1.1em;
 $small: 1em;
 
-
-
-h1{
-	font-family: $primary;
-	font-size: $head_size;
-	text-align: center;
-  	text-shadow: 4px 5px 3px rgba(1, 1, 1, 0.4);
-  	padding: 0.5em 0.5em;
+h1 {
+    font-family: $primary;
+    font-size: $head_size;
+    text-align: center;
+    text-shadow: 4px 5px 3px rgba(1, 1, 1, 0.4);
+    padding: 0.5em 0.5em;
 }
 
 h2 {
-	font-family: $primary;
-	font-size: $sub_size;
-	text-align: center;
-	padding-bottom: .5em;
+    font-family: $primary;
+    font-size: $sub_size;
+    text-align: center;
+    padding-bottom: .5em;
 }
-h3 {
-	font-family: $primary;
-	font-size: 2.25em;
-}
-h4, {
-	font-family: $secondary;
-	font-size: 1.1em;
-	font-weight: bold;
-	line-height: 1.5em;
-	width: 100%;
-	padding-top: 2em;
 
-	span {
-		float: right;
-	}
+h3 {
+    font-family: $primary;
+    font-size: 2.25em;
+}
+
+h4 {
+    font-family: $secondary;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1.5em;
+    width: 100%;
+    padding-top: 2em;
+    span {
+        float: right;
+    }
 }
 
 h5 {
-	font-family: $secondary;
-	font-size: $small;
-	line-height: 1.2em;
+    font-family: $secondary;
+    font-size: $small;
+    line-height: 1.2em;
 }
 
-p, {
-	font-family: $secondary;
-	font-size: $prim_size;
-	font-weight: 200;
-	line-height: 1.75em;
-
-	span {
-		float: right;
-	}
+p {
+    font-family: $secondary;
+    font-size: $prim_size;
+    font-weight: 200;
+    line-height: 1.75em;
+    span {
+        float: right;
+    }
 }
+
 li {
-	font-family: $primary;
-	a {
-		font-family: $primary;
-	}
+    font-family: $primary;
+    a {
+        font-family: $primary;
+    }
 }
-	h3 {
-	padding: .5em .75em;
+
+h3 {
+    padding: .5em .75em;
 }
-h4, p, {
-	padding-left: 1.25em;
-	padding-right: 1.5em;
+
+h4, p {
+    padding-left: 1.25em;
+    padding-right: 1.5em;
 }
-.wine_list {
-	
-	p span{
-		font-weight: 700;
-	}
-}
+
+// .wine_list {
+
+// 	p span{
+// 		font-weight: 700;
+// 	}
+// }
 .happy_hour {
-	text-align: center;
+    text-align: center;
 }
 
-.about h3{
+.about h3 {
+    font-size: 2em;
+    padding-left: 1em;
+}
 
-		font-size: 2em;
-		padding-left: 1em;
-	}
 button {
-	font-family: $primary;
+    font-family: $primary;
 }
 
 .always, .sometimes {
-	h3 {
-		padding-bottom: 0;
-
-	}
+    h3 {
+        padding-bottom: 0;
+    }
 }
+
 .sometimes {
-	h3 {
-		padding-top: 2em;
-	}
+    h3 {
+        padding-top: 2em;
+    }
 }
 
+.wine_item {
+    font-weight: bold;
+}

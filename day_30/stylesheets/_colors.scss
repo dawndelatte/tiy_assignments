@@ -1,69 +1,63 @@
-$lt_gold: rgb(219,199,88);
-$redish: rgb(244,61,61);
-$turq: rgb(10,162,170);
-$lt_grey: rgb(209,213,213);
-$trans_grey: rgba(57,57,57,0.95);
-$dk_grey: rgb(57,57,57);
-
+$lt_gold: rgb(219, 199, 88);
+$redish: rgb(244, 61, 61);
+$turq: rgb(10, 162, 170);
+$lt_grey: rgb(209, 213, 213);
+$trans_grey: rgba(57, 57, 57, 0.95);
+$dk_grey: rgb(57, 57, 57);
 
 /* ========== text ========== */
 
 h1, h3 {
-	color: $lt_gold;
+    color: $lt_gold;
 }
 
 h2 {
-	color: $redish;
+    color: $redish;
 }
 
 h4, h5, p, li {
-	color: $lt_grey;
+    color: $lt_grey;
 }
 
- li a{
- 	color: $lt_grey;
-
- 	&:visited {
-	color: $lt_grey;
-	}
+li a {
+    color: $lt_grey;
+    &:visited {
+        color: $lt_grey;
+    }
 }
+
 .about {
-
-	
-		h3 {
-			color: $redish;
-		}
-
-	a {
-		color: $lt_grey;
-		text-decoration: none;
-
-		&:hover {
-			font-weight: bold;
-		}
-		&:visited {
-			color: $lt_grey;
-		}
-	}
+    h3 {
+        color: $redish;
+    }
+    a {
+        color: $lt_grey;
+        text-decoration: none;
+        &:hover {
+            font-weight: bold;
+        }
+        &:visited {
+            color: $lt_grey;
+        }
+    }
 }
 
 .menu_items {
-	p{
-		color:#aaa;
-	}
+    p {
+        color: #aaa;
+    }
 }
 
 /* ========== backgrounds ========== */
 
 .main_bg {
-
-	background-color: $trans_grey;
+    background-color: $trans_grey;
 }
 
 body {
-	background-color: $lt_grey;
+    background-color: $lt_grey;
 }
 
 header, footer {
-	background-color: $dk_grey;
+    background-color: $dk_grey;
 }

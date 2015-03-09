@@ -1,14 +1,11 @@
-
-@mixin grid ($col-num) {
-  width: ($col * $col-num);
-  // margin-right: $gut;
+@mixin grid($col-num) {
+    width: $col * $col-num;
+    // margin-right: $gut;
 }
 
-@mixin margin-col ($col-num) {
-	margin-right: ($col * $col-num);
+@mixin margin-col($col-num) {
+    margin-right: $col * $col-num;
 }
-
 
 $col: 8.1%;
 $global: 100%;
-
