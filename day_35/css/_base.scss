@@ -1,0 +1,259 @@
+
+/* ========== global ========== */
+
+.intro, .main, footer, aside {
+  width: 90%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+.intro {
+  margin-top: 3em;
+}
+h1, h2, h3 {
+
+  text-align: center; 
+}
+
+.summary, .preamble, .explanation, .participation, .benefits, .requirements {
+  overflow:hidden;
+  clear: both;
+}
+
+
+.summary p, .preamble p, .explanation p, .participation p, 
+.benefits p, .requirements p {
+  padding: 1em 5%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.summary::after, 
+.preamble::after,  
+.requirements::after, 
+.participation::after, 
+.explanation::before, .explanation::after, /*explanation has before and after windows*/
+.benefits::before, .benefits::after /*benefits has before and after windows*/ {
+
+  content: "";
+  display: block;
+  margin-left: 5%;
+  margin-top: 3.5em;
+  width: 30%;
+  height: 150px;
+  padding: 1em;
+
+}
+
+.preamble::after, .explanation::after, .benefits::before {
+  float: right;
+  margin-right: 5%;
+}
+
+
+.benefits p, .benefits h3 {
+  clear:both;
+}
+
+ul {
+  width: 90%;
+  margin: 0 auto;
+
+  &:last-of-type {
+    margin-bottom: 10px;
+  }
+}
+
+ul li {
+  padding: .5em 5%;
+}
+
+.zen-resources {
+  padding-bottom: 4em;
+}
+
+footer {
+  margin-top: 3em;
+}
+
+/* ========== medium ========== */
+
+@media screen and (min-width: 570px) { 
+/*This is for the wrapper width*/
+
+  .intro, .main, footer, aside {
+  width: 80%;
+  }
+}
+
+@media screen and (min-width: 730px) {
+/*This is for the medium query*/
+
+/*Here I'm "reseting" some of the befores and afters (per class) to create columns*/
+
+.summary {
+  p {
+    width: 40%;
+    margin-left: 5%;
+  }
+  &::after {
+  display: none;
+  }
+  &::before {
+  content: "";
+  display: block;
+  width: 30%;
+  margin-right: 5%;
+  height: 150px;
+  float: right;
+  padding: 1em;
+  } 
+}
+
+.preamble {
+  p {
+    width: 40%;
+    margin-right: 5%;
+  }
+
+  &::after {
+    display: none;
+  }
+
+  &::before {
+    display: block;
+    content: "";
+    width: 30%;
+    margin-left: 5%;
+    height: 300px;
+    float: left;
+    margin-top: 9.5em;
+    padding: 1em;
+  }
+}
+
+.explanation {
+
+    // p {
+    //   width: 40%;
+    //   margin-left: 5%;
+    // }
+
+}
+
+.participation {
+    p {
+      width: 40%;
+      margin-left: 5%;
+
+      // &:nth-of-type(3){
+      //   float: right;
+      //   margin-top: 2em;
+      //   margin-right: 5%;
+      // }
+
+      /* Ask Sam about this one ^^^^ */
+
+    }
+
+    &::after {
+    display: none;
+    }
+    &::before {
+    content: "";
+    display: block;
+    width: 30%;
+    margin-right: 5%;
+    height: 150px;
+    float: right;
+    margin-top: 7.5em;
+    padding: 1em;
+    } 
+}
+
+.benefits {
+  p {
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+  }
+
+  &::after {
+    margin-top: 0;
+  }
+}
+
+.requirements {
+  p {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+  }
+}
+}
+
+/* ========== large ========== */
+
+@media screen and (min-width: 900px) {
+
+// .intro, .main, footer, aside {
+//   background: black;
+//   color: white;
+//   width: 60%;
+//   margin: 0 auto;
+// }
+
+// .summary p, .preamble p, .explanation p, .participation p, .benefits p, .requirements p, {
+//   width: 45%;
+//   background: gold;
+//   padding: 1em;
+//   margin-right: 5%;
+//   margin-left: 5%;
+// }
+
+// .preamble p, .participation p, .requirements p {
+//   float:right;
+
+// }
+
+// .summary::before, .explanation::before, .benefits::before {
+//   content: "hello";
+//   background: gold;
+//   margin-right: 5%;
+//   // margin-top: 20px;
+//   width: 30%;
+//   height: 150px;
+//   float: right;
+//   animation: lights 10s linear;
+//   animation-delay: 3s;
+// }
+
+
+// .preamble::before, .participation::before, .requirements::before {
+//   content: "hello";
+//   background: gold;
+//   margin-left: 5%;
+//    margin-top: 20px;
+//   padding: 150px 60px;
+//   animation: lights 10s linear;
+//   animation-delay: 3s;
+//   display:block;
+//   width: 20px;
+//   float: left;
+// }
+
+// .summary, .preamble, .explanation, .participation, .benefits, .requirements {
+//   overflow:hidden;
+//   clear: both;
+// }
+// .preamble {
+//   border-top: black solid 30px;
+  
+// }
+
+// @keyframes lights {
+//     0% {background-color: gold ;}
+//    20% {background-color:gold ;}
+//   21% {background-color:navy ;}
+//   100% {background-color:navy;}
+// }
+ }
