@@ -12,11 +12,17 @@ background: linear-gradient(to bottom,  rgba(43,36,76,0.97) 0%,rgba(43,36,76,0.9
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', endColorstr='#afafb5',GradientType=0 ); /* IE6-8 */
 
 }
+.page-wrapper {
+  padding-top: 6em;
+}
+
 .intro, .main, footer, aside {
   width: 90%;
   max-width: 650px;
   // box-shadow: .5em -.5em #444;
   margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 6em;
 }
 .intro {
   margin-top: 3em;
@@ -62,7 +68,7 @@ h1, h2, h3 {
 }
 
 .requirements::after {
-  margin-top: -500px;
+  margin-top: -900px;
   height: 300px;
 }
 .benefits p, .benefits h3 {
@@ -82,9 +88,18 @@ ul li {
   padding: .5em 5%;
 }
 
-.zen-resources {
-  padding-bottom: 4em;
-}
+ // .design-archives {
+ //  margin-left: 5%;
+ //  width: 40%;
+ //  float: left;
+ // }
+
+ // .zen-resources {
+ //  width: 40%;
+ //  float: right;
+ //  margin-right: 5%;
+ //  margin-top: 18em;
+ // }
 
 footer {
   margin-top: 3em;
@@ -93,14 +108,26 @@ footer {
 /* ========== medium ========== */
 
 @media screen and (min-width: 570px) { 
-/*This is for the wrapper width*/
 
   .intro, .main, footer, aside {
   width: 80%;
   }
+
+   .design-archives {
+  margin-left: 5%;
+  width: 40%;
+  float: left;
+ }
+
+ .zen-resources {
+  width: 40%;
+  float: right;
+  margin-right: 5%;
+  margin-top: 18em;
+ }
 }
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 720px) {
 /*This is for the medium query*/
   body {
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -222,6 +249,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', e
     width: 40%;
     float: left;
     margin-left: 5%;
+
+      //     &:nth-of-type(2){
+      //   float: right;
+      //   margin-top: 2em;
+      //   margin-bottom: 2em;
+      //   margin-right: 5%;
+      // }
+
+       /* Ask Sam about this one ^^^^ */
   }
 
   &::before {
@@ -235,79 +271,177 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', e
     padding: 1em;
   }
 }
+
+
+ .design-selection {
+  margin-left: 5%;
+  width: 50%;
+  float: left;
+  overflow: hidden;
+ }
+
+ .design-archives {
+  margin-left: 0;
+  margin-right: 5%;
+ }
+
+
 }
 
 /* ========== large ========== */
 
 @media screen and (min-width: 900px) {
 
-  // body {
-  //   background-image: url(../assets/zengarden_lg.svg);
-  //   background-size: 100% auto;
-  //   background-repeat: no-repeat;
-  //   background-attachment: fixed;
-  //   background-position: 0 4em;
-  // }
+.extra1 {
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 3px 3px 20px white;
+  position: fixed;
+  top: 40px;
+  left: 60px;
 
-// .intro, .main, footer, aside {
-//   background: black;
-//   color: white;
-//   width: 60%;
-//   margin: 0 auto;
+  &::before {
+    content: "";
+    display: block;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 3px 3px 20px white;
+  position: relative;
+  top: -32px;
+  left: 107px;
+  }
+
+  &::after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 3px 3px 20px white;
+  position: relative;
+  top: 32px;
+  left: 54px;
+  }
+}
+
+/*Figure out the fixed position of these in chrome dev tools*/
+
+// .extra2 {
+//   width: 5px;
+//   height: 5px;
+//   background-color: white;
+//   border-radius: 50%;
+//   box-shadow: 3px 3px 20px white;
+//   position: fixed;
+//   top: 40px;
+//   left: 160px;
+
+//   &::before {
+//     content: "";
+//     display: block;
+//   width: 5px;
+//   height: 5px;
+//   background-color: white;
+//   border-radius: 50%;
+//   box-shadow: 3px 3px 20px white;
+//   position: relative;
+//   top: -32px;
+//   left: 207px;
+//   }
+
+//   &::after {
+//   content: "";
+//   display: block;
+//   width: 5px;
+//   height: 5px;
+//   background-color: white;
+//   border-radius: 50%;
+//   box-shadow: 3px 3px 20px white;
+//   position: relative;
+//   top: 32px;
+//   left: 154px;
+//   }
 // }
 
-// .summary p, .preamble p, .explanation p, .participation p, .benefits p, .requirements p, {
-//   width: 45%;
-//   background: gold;
-//   padding: 1em;
-//   margin-right: 5%;
-//   margin-left: 5%;
+
+// .extra3 {
+//   width: 5px;
+//   height: 5px;
+//   background-color: white;
+//   border-radius: 50%;
+//   box-shadow: 3px 3px 20px white;
+//   position: fixed;
+//   top: 40px;
+//   left: 260px;
+
+//   &::before {
+//     content: "";
+//     display: block;
+//   width: 5px;
+//   height: 5px;
+//   background-color: white;
+//   border-radius: 50%;
+//   box-shadow: 3px 3px 20px white;
+//   position: relative;
+//   top: -32px;
+//   left: 307px;
+//   }
+
+//   &::after {
+//   content: "";
+//   display: block;
+//   width: 5px;
+//   height: 5px;
+//   background-color: white;
+//   border-radius: 50%;
+//   box-shadow: 3px 3px 20px white;
+//   position: relative;
+//   top: 32px;
+//   left: 254px;
+//   }
 // }
 
-// .preamble p, .participation p, .requirements p {
-//   float:right;
 
-// }
+// .extra4 {
+//   width: 5px;
+//   height: 5px;
+//   background-color: white;
+//   border-radius: 50%;
+//   box-shadow: 3px 3px 20px white;
+//   position: fixed;
+//   top: 40px;
+//   left: 360px;
 
-// .summary::before, .explanation::before, .benefits::before {
-//   content: "hello";
-//   background: gold;
-//   margin-right: 5%;
-//   // margin-top: 20px;
-//   width: 30%;
-//   height: 150px;
-//   float: right;
-//   animation: lights 10s linear;
-//   animation-delay: 3s;
-// }
+//   &::before {
+//     content: "";
+//     display: block;
+//   width: 5px;
+//   height: 5px;
+//   background-color: white;
+//   border-radius: 50%;
+//   box-shadow: 3px 3px 20px white;
+//   position: relative;
+//   top: -32px;
+//   left: 407px;
+//   }
 
+//   &::after {
+//   content: "";
+//   display: block;
+//   width: 5px;
+//   height: 5px;
+//   background-color: white;
+//   border-radius: 50%;
+//   box-shadow: 3px 3px 20px white;
+//   position: relative;
+//   top: 32px;
+//   left: 354px;
+//   }
+// 
+}
 
-// .preamble::before, .participation::before, .requirements::before {
-//   content: "hello";
-//   background: gold;
-//   margin-left: 5%;
-//    margin-top: 20px;
-//   padding: 150px 60px;
-//   animation: lights 10s linear;
-//   animation-delay: 3s;
-//   display:block;
-//   width: 20px;
-//   float: left;
-// }
-
-// .summary, .preamble, .explanation, .participation, .benefits, .requirements {
-//   overflow:hidden;
-//   clear: both;
-// }
-// .preamble {
-//   border-top: black solid 30px;
-  
-// }
-
-// @keyframes lights {
-//     0% {background-color: gold ;}
-//    20% {background-color:gold ;}
-//   21% {background-color:navy ;}
-//   100% {background-color:navy;}
-// }
- }

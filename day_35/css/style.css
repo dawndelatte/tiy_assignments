@@ -58,15 +58,16 @@ body {
 h1 {
   font-size: 5em;
   font-weight: 700;
-  padding-top: 0.5em; }
+  padding-top: 0.5em;
+  margin-bottom: 1em; }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 3.5em;
   font-weight: 700;
   padding: 1em 0; }
 
 h3 {
-  font-size: 2.25em;
+  font-size: 3em;
   font-weight: 600;
   padding-top: 1.5em;
   padding-bottom: .75em; }
@@ -138,10 +139,15 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', endColorstr='#afafb5',GradientType=0 );
   /* IE6-8 */ }
 
+.page-wrapper {
+  padding-top: 6em; }
+
 .intro, .main, footer, aside {
   width: 90%;
   max-width: 650px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 6em; }
 
 .intro {
   margin-top: 3em; }
@@ -178,7 +184,7 @@ h1, h2, h3 {
   margin-right: 5%; }
 
 .requirements::after {
-  margin-top: -500px;
+  margin-top: -900px;
   height: 300px; }
 
 .benefits p, .benefits h3 {
@@ -193,18 +199,25 @@ ul {
 ul li {
   padding: .5em 5%; }
 
-.zen-resources {
-  padding-bottom: 4em; }
-
 footer {
   margin-top: 3em; }
 
 /* ========== medium ========== */
 @media screen and (min-width: 570px) {
-  /*This is for the wrapper width*/
   .intro, .main, footer, aside {
-    width: 80%; } }
-@media screen and (min-width: 740px) {
+    width: 80%; }
+
+  .design-archives {
+    margin-left: 5%;
+    width: 40%;
+    float: left; }
+
+  .zen-resources {
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 18em; } }
+@media screen and (min-width: 720px) {
   /*This is for the medium query*/
   body {
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -285,7 +298,8 @@ footer {
   .requirements p {
     width: 40%;
     float: left;
-    margin-left: 5%; }
+    margin-left: 5%;
+    /* Ask Sam about this one ^^^^ */ }
   .requirements::before {
     content: "";
     display: block;
@@ -294,7 +308,51 @@ footer {
     height: 150px;
     float: right;
     margin-top: 7.5em;
-    padding: 1em; } }
+    padding: 1em; }
+
+  .design-selection {
+    margin-left: 5%;
+    width: 50%;
+    float: left;
+    overflow: hidden; }
+
+  .design-archives {
+    margin-left: 0;
+    margin-right: 5%; } }
 /* ========== large ========== */
+@media screen and (min-width: 900px) {
+  .extra1 {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 3px 3px 20px white;
+    position: fixed;
+    top: 40px;
+    left: 60px; }
+    .extra1::before {
+      content: "";
+      display: block;
+      width: 5px;
+      height: 5px;
+      background-color: white;
+      border-radius: 50%;
+      box-shadow: 3px 3px 20px white;
+      position: relative;
+      top: -32px;
+      left: 107px; }
+    .extra1::after {
+      content: "";
+      display: block;
+      width: 5px;
+      height: 5px;
+      background-color: white;
+      border-radius: 50%;
+      box-shadow: 3px 3px 20px white;
+      position: relative;
+      top: 32px;
+      left: 54px; }
+
+  /*Figure out the fixed position of these in chrome dev tools*/ }
 
 /*# sourceMappingURL=style.css.map */
