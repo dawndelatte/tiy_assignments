@@ -31,13 +31,9 @@ overflow: hidden;
 .intro {
   margin-top: 3em;
 }
-h1, h2, h3 {
-
-  text-align: center; 
-}
 
 .summary, .preamble, .explanation, .participation, .benefits, .requirements {
-  overflow:hidden;
+  // overflow:hidden;
   clear: both;
 }
 
@@ -94,11 +90,14 @@ ul li {
 
 
 footer {
-  margin-top: 3em;
+  padding-top: 3em;
 }
 
 .zen-resources {
   margin-bottom: 10em;
+}
+#zen-supporting {
+  padding-top: 1em;
 }
 /* ========== medium ========== */
 
@@ -183,7 +182,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', e
     margin-left: 5%;
     height: 300px;
     float: left;
-    margin-top: 9.5em;
+    margin-top: 12.75em;
     padding: 1em;
   }
 }
@@ -214,7 +213,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', e
     margin-right: 5%;
     height: 150px;
     float: right;
-    margin-top: 7.5em;
+    margin-top: 9.75em;
     padding: 1em;
     } 
 }
@@ -254,7 +253,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', e
     margin-right: 5%;
     height: 150px;
     float: right;
-    margin-top: 7.5em;
+    margin-top: 9.75em;
     padding: 1em;
   }
 }
@@ -270,6 +269,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', e
  .design-archives {
   margin-left: 0;
   margin-right: 5%;
+
+  nav {
+    margin-top: 3em;
+  }
  }
 
 
@@ -312,7 +315,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', e
   box-shadow: 3px 3px 20px white;
   position: relative;
   top: 32px;
-  left: 54px;
+  left: 44px;
   }
 }
 
@@ -326,7 +329,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', e
   box-shadow: 3px 3px 20px white;
   position: fixed;
   top: 40px;
-  left: 280px;
+  left: 270px;
 
   &::before {
     content: "";
@@ -391,4 +394,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', e
   right: -156px;
   }
 }
+}
+@media screen and (min-width: 1100px) {
+  .preamble::before {
+    margin-top: 9.75em;
+  }
 }
