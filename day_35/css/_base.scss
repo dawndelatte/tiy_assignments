@@ -299,7 +299,6 @@ footer {
             left: 44px;
         }
     }
-    /*Figure out the fixed position of these in chrome dev tools*/
     .extra2 {
         width: 5px;
         height: 5px;
@@ -308,7 +307,7 @@ footer {
         box-shadow: 3px 3px 20px white;
         position: fixed;
         top: 40px;
-        left: 270px;
+        left: 285px;
         &::before {
             content: "";
             display: block;
@@ -321,18 +320,18 @@ footer {
             top: -30px;
             left: 681px;
         }
-        // &::after {
-        // content: "";
-        // display: block;
-        // width: 5px;
-        // height: 5px;
-        // background-color: white;
-        // border-radius: 50%;
-        // box-shadow: 3px 3px 20px white;
-        // position: relative;
-        // top: 32px;
-        // left: 154px;
-        // }
+        &::after {
+        content: "";
+        display: block;
+        width: 5px;
+        height: 5px;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 3px 3px 20px white;
+        position: relative;
+        top: 32px;
+        left: 267px;
+        }
    
     }
     .extra3 {
@@ -342,8 +341,9 @@ footer {
         border-radius: 50%;
         box-shadow: 3px 3px 20px white;
         position: fixed;
-        top: 53px;
-        right: 219px;
+        top: 8px;
+        right: 349px;
+
         &::before {
             content: "";
             display: block;
@@ -353,8 +353,8 @@ footer {
             border-radius: 50%;
             box-shadow: 3px 3px 20px white;
             position: relative;
-            top: -32px;
-            right: -85px;
+            top: 18px;
+            right: -275px;
         }
         &::after {
             content: "";
@@ -366,8 +366,44 @@ footer {
             box-shadow: 3px 3px 20px white;
             position: relative;
             top: 7px;
-            right: -156px;
+            right: -216px;
         }
+    }
+
+        .extra4 {
+        width: 5px;
+        height: 5px;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 3px 3px 20px white;
+        position: fixed;
+        top: 24px;
+        left: 420px;
+        &::before {
+            content: "";
+            display: block;
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 3px 3px 20px white;
+            position: relative;
+            top: -30px;
+            left: 781px;
+        }
+        &::after {
+        content: "";
+        display: block;
+        width: 5px;
+        height: 5px;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 3px 3px 20px white;
+        position: relative;
+        top: 32px;
+        left: 344px;
+        }
+   
     }
 }
 

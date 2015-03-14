@@ -392,7 +392,6 @@ footer {
       top: 32px;
       left: 44px; }
 
-  /*Figure out the fixed position of these in chrome dev tools*/
   .extra2 {
     width: 5px;
     height: 5px;
@@ -401,7 +400,7 @@ footer {
     box-shadow: 3px 3px 20px white;
     position: fixed;
     top: 40px;
-    left: 270px; }
+    left: 285px; }
     .extra2::before {
       content: "";
       display: block;
@@ -413,6 +412,17 @@ footer {
       position: relative;
       top: -30px;
       left: 681px; }
+    .extra2::after {
+      content: "";
+      display: block;
+      width: 5px;
+      height: 5px;
+      background-color: white;
+      border-radius: 50%;
+      box-shadow: 3px 3px 20px white;
+      position: relative;
+      top: 32px;
+      left: 267px; }
 
   .extra3 {
     width: 5px;
@@ -421,8 +431,8 @@ footer {
     border-radius: 50%;
     box-shadow: 3px 3px 20px white;
     position: fixed;
-    top: 53px;
-    right: 219px; }
+    top: 8px;
+    right: 349px; }
     .extra3::before {
       content: "";
       display: block;
@@ -432,8 +442,8 @@ footer {
       border-radius: 50%;
       box-shadow: 3px 3px 20px white;
       position: relative;
-      top: -32px;
-      right: -85px; }
+      top: 18px;
+      right: -275px; }
     .extra3::after {
       content: "";
       display: block;
@@ -444,7 +454,39 @@ footer {
       box-shadow: 3px 3px 20px white;
       position: relative;
       top: 7px;
-      right: -156px; } }
+      right: -216px; }
+
+  .extra4 {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 3px 3px 20px white;
+    position: fixed;
+    top: 24px;
+    left: 420px; }
+    .extra4::before {
+      content: "";
+      display: block;
+      width: 5px;
+      height: 5px;
+      background-color: white;
+      border-radius: 50%;
+      box-shadow: 3px 3px 20px white;
+      position: relative;
+      top: -30px;
+      left: 781px; }
+    .extra4::after {
+      content: "";
+      display: block;
+      width: 5px;
+      height: 5px;
+      background-color: white;
+      border-radius: 50%;
+      box-shadow: 3px 3px 20px white;
+      position: relative;
+      top: 32px;
+      left: 344px; } }
 @media screen and (min-width: 1100px) {
   .preamble::before {
     margin-top: 9.75em; } }
@@ -461,6 +503,24 @@ footer {
   -moz-animation-delay: 3s;
   animation-delay: 3s; }
 
+@-webkit-keyframes lights {
+  0% {
+    background-color: #ffcf52; }
+  20% {
+    background-color: #ffcf52; }
+  21% {
+    background-color: #1b4873; }
+  100% {
+    background-color: #1b4873; } }
+@-moz-keyframes lights {
+  0% {
+    background-color: #ffcf52; }
+  20% {
+    background-color: #ffcf52; }
+  21% {
+    background-color: #1b4873; }
+  100% {
+    background-color: #1b4873; } }
 @keyframes lights {
   0% {
     background-color: #ffcf52; }

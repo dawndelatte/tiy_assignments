@@ -14,7 +14,7 @@ $lights-off: rgb(27, 72, 115);
   @include animation-delay(3s);
 }
 
-@keyframes lights {
+@include keyframes (lights) {
     0% {background-color: $lights-on;}
    20% {background-color:$lights-on;}
   21% {background-color:$lights-off;}
