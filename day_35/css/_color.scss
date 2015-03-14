@@ -1,63 +1,50 @@
 
-$dk-grey:rgb(54,54,54);
-$lights-on:rgb(255,207,82);
-
-
+$dk-grey: rgb(54, 54, 54);
+$lights-on: rgb(255, 207, 82);
+$lights-off: rgb(27, 72, 115);
 
 body {
-	h1, h2, h3 {
-		color: #ccc;
-	}
-	p {
-	color: $dk-grey;
-	}
-
-  	ul li a {
-  	color: $dk-grey;
-
-  	}
-
-	ul {
-	background-color: $lights-on;
-	}
+    h1, h2, h3 {
+        color: #ccc;
+    }
+    p {
+        color: $dk-grey;
+    }
+    ul li a {
+        color: $dk-grey;
+    }
+    ul {
+        background-color: $lights-on;
+    }
 }
 
 p a {
-	color: $dk-grey;
+    color: $dk-grey;
 }
-.summary p, .preamble p, .explanation p, .participation p, 
-.benefits p, .requirements p, {
 
-	background-color: $lights-on;
+.summary p, .preamble p, .explanation p, .participation p,
+.benefits p, .requirements p {
+    background-color: $lights-on;
 }
-.summary::after, .summary::before, .preamble::after, .preamble::before, .explanation::before, 
-.explanation::after, .participation::after, .participation::before, .benefits::before, .benefits::after, .requirements::after, .requirements::before{
-	background-color: $lights-on;
+
+.summary::after, .summary::before, .preamble::after, .preamble::before, .explanation::before,
+.explanation::after, .participation::after, .participation::before, .benefits::before, .benefits::after, .requirements::after, .requirements::before {
+    background-color: $lights-on;
 }
 
 .intro, .main, footer, aside {
-  background: $dk-grey;
+    background: $dk-grey;
 }
-
 
 footer {
-	text-align: center;
-
-	a {
-	color: $lights-on;
-
-		&:hover {
-			color: darken($lights-on, 30%);
-		}
-	}
-
+    text-align: center;
+    a {
+        color: $lights-on;
+        &:hover {
+            color: darken($lights-on, 30%);
+        }
+    }
 }
-
-
-
-
-
-
 
 
 

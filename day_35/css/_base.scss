@@ -1,402 +1,378 @@
-
 /* ========== global ========== */
 body {
-
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJiMjQ0YyIgc3RvcC1vcGFjaXR5PSIwLjk3Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjYlIiBzdG9wLWNvbG9yPSIjMmIyNDRjIiBzdG9wLW9wYWNpdHk9IjAuOTciLz4KICAgIDxzdG9wIG9mZnNldD0iMTAlIiBzdG9wLWNvbG9yPSIjMmIyNDRjIiBzdG9wLW9wYWNpdHk9IjAuOTciLz4KICAgIDxzdG9wIG9mZnNldD0iMjglIiBzdG9wLWNvbG9yPSIjYWZhZmI1IiBzdG9wLW9wYWNpdHk9IjAuOTgiLz4KICAgIDxzdG9wIG9mZnNldD0iOTglIiBzdG9wLWNvbG9yPSIjYWZhZmI1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
-background: -moz-linear-gradient(top,  rgba(43,36,76,0.97) 0%, rgba(43,36,76,0.97) 6%, rgba(43,36,76,0.97) 10%, rgba(175,175,181,0.98) 28%, rgba(175,175,181,1) 98%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(43,36,76,0.97)), color-stop(6%,rgba(43,36,76,0.97)), color-stop(10%,rgba(43,36,76,0.97)), color-stop(28%,rgba(175,175,181,0.98)), color-stop(98%,rgba(175,175,181,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(43,36,76,0.97) 0%,rgba(43,36,76,0.97) 6%,rgba(43,36,76,0.97) 10%,rgba(175,175,181,0.98) 28%,rgba(175,175,181,1) 98%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(43,36,76,0.97) 0%,rgba(43,36,76,0.97) 6%,rgba(43,36,76,0.97) 10%,rgba(175,175,181,0.98) 28%,rgba(175,175,181,1) 98%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(43,36,76,0.97) 0%,rgba(43,36,76,0.97) 6%,rgba(43,36,76,0.97) 10%,rgba(175,175,181,0.98) 28%,rgba(175,175,181,1) 98%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(43,36,76,0.97) 0%,rgba(43,36,76,0.97) 6%,rgba(43,36,76,0.97) 10%,rgba(175,175,181,0.98) 28%,rgba(175,175,181,1) 98%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', endColorstr='#afafb5',GradientType=0 ); /* IE6-8 */
-
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJiMjQ0YyIgc3RvcC1vcGFjaXR5PSIwLjk3Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjYlIiBzdG9wLWNvbG9yPSIjMmIyNDRjIiBzdG9wLW9wYWNpdHk9IjAuOTciLz4KICAgIDxzdG9wIG9mZnNldD0iMTAlIiBzdG9wLWNvbG9yPSIjMmIyNDRjIiBzdG9wLW9wYWNpdHk9IjAuOTciLz4KICAgIDxzdG9wIG9mZnNldD0iMjglIiBzdG9wLWNvbG9yPSIjYWZhZmI1IiBzdG9wLW9wYWNpdHk9IjAuOTgiLz4KICAgIDxzdG9wIG9mZnNldD0iOTglIiBzdG9wLWNvbG9yPSIjYWZhZmI1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+    background: -moz-linear-gradient(top, rgba(43, 36, 76, 0.97) 0%, rgba(43, 36, 76, 0.97) 6%, rgba(43, 36, 76, 0.97) 10%, rgba(175, 175, 181, 0.98) 28%, rgba(175, 175, 181, 1) 98%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(43, 36, 76, 0.97)), color-stop(6%, rgba(43, 36, 76, 0.97)), color-stop(10%, rgba(43, 36, 76, 0.97)), color-stop(28%, rgba(175, 175, 181, 0.98)), color-stop(98%, rgba(175, 175, 181, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(43, 36, 76, 0.97) 0%, rgba(43, 36, 76, 0.97) 6%, rgba(43, 36, 76, 0.97) 10%, rgba(175, 175, 181, 0.98) 28%, rgba(175, 175, 181, 1) 98%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(43, 36, 76, 0.97) 0%, rgba(43, 36, 76, 0.97) 6%, rgba(43, 36, 76, 0.97) 10%, rgba(175, 175, 181, 0.98) 28%, rgba(175, 175, 181, 1) 98%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(43, 36, 76, 0.97) 0%, rgba(43, 36, 76, 0.97) 6%, rgba(43, 36, 76, 0.97) 10%, rgba(175, 175, 181, 0.98) 28%, rgba(175, 175, 181, 1) 98%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(43, 36, 76, 0.97) 0%, rgba(43, 36, 76, 0.97) 6%, rgba(43, 36, 76, 0.97) 10%, rgba(175, 175, 181, 0.98) 28%, rgba(175, 175, 181, 1) 98%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', endColorstr='#afafb5',GradientType=0 );
+    /* IE6-8 */
 }
+
 .page-wrapper {
-  padding-top: 6em;
+    padding-top: 6em;
+    position: relative;
+    z-index: 2;
 }
 
 .intro, .main, footer, aside {
-  width: 90%;
-  max-width: 650px;
-  // box-shadow: .5em -.5em #444;
-  margin: 0 auto;
-
+    width: 90%;
+    max-width: 650px;
+    // box-shadow: .5em -.5em #444;
+    margin: 0 auto;
 }
+
 footer, aside {
-overflow: hidden;
+    overflow: hidden;
 }
 
 .intro {
-  margin-top: 3em;
+    margin-top: 3em;
 }
 
 .summary, .preamble, .explanation, .participation, .benefits, .requirements {
-  // overflow:hidden;
-  clear: both;
+    // overflow:hidden;
+    clear: both;
 }
 
-
-.summary p, .preamble p, .explanation p, .participation p, 
+.summary p, .preamble p, .explanation p, .participation p,
 .benefits p, .requirements p {
-  padding: .9em 5%;
-  width: 80%;
-  margin: 0 auto;
+    padding: .9em 5%;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.summary::after, 
-.preamble::after,  
-.participation::after, 
-.explanation::before, .explanation::after, /*explanation has before and after windows*/
-.benefits::before, .benefits::after, /*benefits has before and after windows*/ 
+.summary::after,
+.preamble::after,
+.participation::after,
+.explanation::before, .explanation::after,
+.benefits::before, .benefits::after,
 .requirements::after {
-
-  content: "";
-  display: block;
-  margin-left: 5%;
-  margin-top: 3.5em;
-  width: 30%;
-  height: 150px;
-  padding: 1em;
-
+    content: "";
+    display: block;
+    margin-left: 5%;
+    margin-top: 3.5em;
+    width: 30%;
+    height: 150px;
+    padding: 1em;
 }
 
 .preamble::after, .explanation::after, .benefits::before, .requirements::after {
-  float: right;
-  margin-right: 5%;
+    float: right;
+    margin-right: 5%;
 }
 
 .requirements::after {
-  margin-top: -900px;
-  height: 300px;
+    margin-top: -900px;
+    height: 300px;
 }
+
 .benefits p, .benefits h3 {
-  clear:both;
+    clear: both;
 }
 
 ul {
-  width: 90%;
-  margin: 0 auto;
-
-  &:last-of-type {
-    margin-bottom: 10px;
-  }
+    width: 90%;
+    margin: 0 auto;
+    &:last-of-type {
+        margin-bottom: 10px;
+    }
 }
 
 ul li {
-  padding: .5em 5%;
+    padding: .5em 5%;
 }
 
-
 footer {
-  padding-top: 3em;
+    padding-top: 3em;
 }
 
 .zen-resources {
-  margin-bottom: 10em;
+    margin-bottom: 10em;
 }
+
 #zen-supporting {
-  padding-top: 1em;
+    padding-top: 1em;
 }
+
+
 /* ========== medium ========== */
 
-@media screen and (min-width: 570px) { 
-
-  .intro, .main, footer, aside {
-  width: 80%;
-  }
-
-   .design-archives {
-  margin-left: 5%;
-  width: 40%;
-  float: left;
- }
-
- .zen-resources {
-  width: 40%;
-  float: right;
-  margin-right: 5%;
-  margin-top: 18em;
- }
+@media screen and (min-width: 570px) {
+    .intro, .main, footer, aside {
+        width: 80%;
+    }
+    .design-archives {
+        margin-left: 5%;
+        width: 40%;
+        float: left;
+    }
+    .zen-resources {
+        width: 40%;
+        float: right;
+        margin-right: 5%;
+        margin-top: 18em;
+    }
 }
 
 @media screen and (min-width: 720px) {
-/*This is for the medium query*/
-  body {
-    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(../assets/zengarden_lg.svg), url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJiMjQ0YyIgc3RvcC1vcGFjaXR5PSIwLjk3Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjYlIiBzdG9wLWNvbG9yPSIjMmIyNDRjIiBzdG9wLW9wYWNpdHk9IjAuOTciLz4KICAgIDxzdG9wIG9mZnNldD0iMTAlIiBzdG9wLWNvbG9yPSIjMmIyNDRjIiBzdG9wLW9wYWNpdHk9IjAuOTciLz4KICAgIDxzdG9wIG9mZnNldD0iMjglIiBzdG9wLWNvbG9yPSIjYWZhZmI1IiBzdG9wLW9wYWNpdHk9IjAuOTgiLz4KICAgIDxzdG9wIG9mZnNldD0iOTglIiBzdG9wLWNvbG9yPSIjYWZhZmI1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
-background:url(../assets/zengarden_lg.svg), -moz-linear-gradient(top,  rgba(43,36,76,0.97) 0%, rgba(43,36,76,0.97) 6%, rgba(43,36,76,0.97) 10%, rgba(175,175,181,0.98) 28%, rgba(175,175,181,1) 98%); /* FF3.6+ */
-background:url(../assets/zengarden_lg.svg), -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(43,36,76,0.97)), color-stop(6%,rgba(43,36,76,0.97)), color-stop(10%,rgba(43,36,76,0.97)), color-stop(28%,rgba(175,175,181,0.98)), color-stop(98%,rgba(175,175,181,1))); /* Chrome,Safari4+ */
-background:url(../assets/zengarden_lg.svg), -webkit-linear-gradient(top,  rgba(43,36,76,0.97) 0%,rgba(43,36,76,0.97) 6%,rgba(43,36,76,0.97) 10%,rgba(175,175,181,0.98) 28%,rgba(175,175,181,1) 98%); /* Chrome10+,Safari5.1+ */
-background:url(../assets/zengarden_lg.svg), -o-linear-gradient(top,  rgba(43,36,76,0.97) 0%,rgba(43,36,76,0.97) 6%,rgba(43,36,76,0.97) 10%,rgba(175,175,181,0.98) 28%,rgba(175,175,181,1) 98%); /* Opera 11.10+ */
-background:url(../assets/zengarden_lg.svg), -ms-linear-gradient(top,  rgba(43,36,76,0.97) 0%,rgba(43,36,76,0.97) 6%,rgba(43,36,76,0.97) 10%,rgba(175,175,181,0.98) 28%,rgba(175,175,181,1) 98%); /* IE10+ */
-background:url(../assets/zengarden_lg.svg), linear-gradient(to bottom,  rgba(43,36,76,0.97) 0%,rgba(43,36,76,0.97) 6%,rgba(43,36,76,0.97) 10%,rgba(175,175,181,0.98) 28%,rgba(175,175,181,1) 98%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', endColorstr='#afafb5',GradientType=0 ); /* IE6-8 */
- /* IE6-8 */
-
-   
-   /* below is for the building svg background*/ 
-    // background-image: url(../assets/zengarden_lg.svg);
-    background-size: cover;
-    background-attachment: fixed;
-
-  }
-
-/*Here I'm "reseting" some of the befores and afters (per class) to create columns*/
-
-.summary {
-  p {
-    width: 40%;
-    margin-left: 5%;
-  }
-  &::after {
-  display: none;
-  }
-  &::before {
-  content: "";
-  display: block;
-  width: 30%;
-  margin-right: 5%;
-  height: 150px;
-  float: right;
-  padding: 1em;
-  } 
-}
-
-.preamble {
-  p {
-    width: 40%;
-    margin-right: 5%;
-  }
-
-  &::after {
-    display: none;
-  }
-
-  &::before {
-    display: block;
-    content: "";
-    width: 30%;
-    margin-left: 5%;
-    height: 300px;
-    float: left;
-    margin-top: 12.75em;
-    padding: 1em;
-  }
-}
-
-
-.participation {
-    p {
-      width: 40%;
-      margin-left: 5%;
-
-      // &:nth-of-type(3){
-      //   float: right;
-      //   margin-top: 2em;
-      //   margin-right: 5%;
-      // }
-
-      /* Ask Sam about this one ^^^^ */
-
+    /*This is for the medium query*/
+    body {
+        /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        background: url(../assets/zengarden_lg.svg), url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJiMjQ0YyIgc3RvcC1vcGFjaXR5PSIwLjk3Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjYlIiBzdG9wLWNvbG9yPSIjMmIyNDRjIiBzdG9wLW9wYWNpdHk9IjAuOTciLz4KICAgIDxzdG9wIG9mZnNldD0iMTAlIiBzdG9wLWNvbG9yPSIjMmIyNDRjIiBzdG9wLW9wYWNpdHk9IjAuOTciLz4KICAgIDxzdG9wIG9mZnNldD0iMjglIiBzdG9wLWNvbG9yPSIjYWZhZmI1IiBzdG9wLW9wYWNpdHk9IjAuOTgiLz4KICAgIDxzdG9wIG9mZnNldD0iOTglIiBzdG9wLWNvbG9yPSIjYWZhZmI1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+        background: url(../assets/zengarden_lg.svg), -moz-linear-gradient(top, rgba(43, 36, 76, 0.97) 0%, rgba(43, 36, 76, 0.97) 6%, rgba(43, 36, 76, 0.97) 10%, rgba(175, 175, 181, 0.98) 28%, rgba(175, 175, 181, 1) 98%);
+        /* FF3.6+ */
+        background: url(../assets/zengarden_lg.svg), -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(43, 36, 76, 0.97)), color-stop(6%, rgba(43, 36, 76, 0.97)), color-stop(10%, rgba(43, 36, 76, 0.97)), color-stop(28%, rgba(175, 175, 181, 0.98)), color-stop(98%, rgba(175, 175, 181, 1)));
+        /* Chrome,Safari4+ */
+        background: url(../assets/zengarden_lg.svg), -webkit-linear-gradient(top, rgba(43, 36, 76, 0.97) 0%, rgba(43, 36, 76, 0.97) 6%, rgba(43, 36, 76, 0.97) 10%, rgba(175, 175, 181, 0.98) 28%, rgba(175, 175, 181, 1) 98%);
+        /* Chrome10+,Safari5.1+ */
+        background: url(../assets/zengarden_lg.svg), -o-linear-gradient(top, rgba(43, 36, 76, 0.97) 0%, rgba(43, 36, 76, 0.97) 6%, rgba(43, 36, 76, 0.97) 10%, rgba(175, 175, 181, 0.98) 28%, rgba(175, 175, 181, 1) 98%);
+        /* Opera 11.10+ */
+        background: url(../assets/zengarden_lg.svg), -ms-linear-gradient(top, rgba(43, 36, 76, 0.97) 0%, rgba(43, 36, 76, 0.97) 6%, rgba(43, 36, 76, 0.97) 10%, rgba(175, 175, 181, 0.98) 28%, rgba(175, 175, 181, 1) 98%);
+        /* IE10+ */
+        background: url(../assets/zengarden_lg.svg), linear-gradient(to bottom, rgba(43, 36, 76, 0.97) 0%, rgba(43, 36, 76, 0.97) 6%, rgba(43, 36, 76, 0.97) 10%, rgba(175, 175, 181, 0.98) 28%, rgba(175, 175, 181, 1) 98%);
+        /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f72b244c', endColorstr='#afafb5',GradientType=0 );
+        /* IE6-8 */
+        /* IE6-8 */
+        /* below is for the building svg background*/
+        // background-image: url(../assets/zengarden_lg.svg);
+        background-size: cover;
+        background-attachment: fixed;
     }
-
-    &::after {
-    display: none;
+    /*Here I'm "reseting" some of the befores and afters (per class) to create columns*/
+    .summary {
+        p {
+            width: 40%;
+            margin-left: 5%;
+        }
+        &::after {
+            display: none;
+        }
+        &::before {
+            content: "";
+            display: block;
+            width: 30%;
+            margin-right: 5%;
+            height: 150px;
+            float: right;
+            padding: 1em;
+        }
     }
-    &::before {
-    content: "";
-    display: block;
-    width: 30%;
-    margin-right: 5%;
-    height: 150px;
-    float: right;
-    margin-top: 9.75em;
-    padding: 1em;
-    } 
-}
-
-.benefits {
-  p {
-    float: right;
-    width: 40%;
-    margin-right: 5%;
-  }
-
-  &::after {
-    margin-top: 0;
-  }
-}
-
-.requirements {
-  p {
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-
-      //     &:nth-of-type(2){
-      //   float: right;
-      //   margin-top: 2em;
-      //   margin-bottom: 2em;
-      //   margin-right: 5%;
-      // }
-
-       /* Ask Sam about this one ^^^^ */
-  }
-
-  &::before {
-    content: "";
-    display: block;
-    width: 30%;
-    margin-right: 5%;
-    height: 150px;
-    float: right;
-    margin-top: 9.75em;
-    padding: 1em;
-  }
-}
-
-
- .design-selection {
-  margin-left: 5%;
-  width: 50%;
-  float: left;
-  overflow: hidden;
- }
-
- .design-archives {
-  margin-left: 0;
-  margin-right: 5%;
-
-  nav {
-    margin-top: 3em;
-  }
- }
-
-
+    .preamble {
+        p {
+            width: 40%;
+            margin-right: 5%;
+        }
+        &::after {
+            display: none;
+        }
+        &::before {
+            display: block;
+            content: "";
+            width: 30%;
+            margin-left: 5%;
+            height: 300px;
+            float: left;
+            margin-top: 12.75em;
+            padding: 1em;
+        }
+    }
+    .participation {
+        p {
+            width: 40%;
+            margin-left: 5%;
+            // &:nth-of-type(3){
+            //   float: right;
+            //   margin-top: 2em;
+            //   margin-right: 5%;
+            // }
+            /* Ask Sam about this one ^^^^ */
+        }
+        &::after {
+            display: none;
+        }
+        &::before {
+            content: "";
+            display: block;
+            width: 30%;
+            margin-right: 5%;
+            height: 150px;
+            float: right;
+            margin-top: 9.75em;
+            padding: 1em;
+        }
+    }
+    .benefits {
+        p {
+            float: right;
+            width: 40%;
+            margin-right: 5%;
+        }
+        &::after {
+            margin-top: 0;
+        }
+    }
+    .requirements {
+        p {
+            width: 40%;
+            float: left;
+            margin-left: 5%;
+            //     &:nth-of-type(2){
+            //   float: right;
+            //   margin-top: 2em;
+            //   margin-bottom: 2em;
+            //   margin-right: 5%;
+            // }
+            /* Ask Sam about this one ^^^^ */
+        }
+        &::before {
+            content: "";
+            display: block;
+            width: 30%;
+            margin-right: 5%;
+            height: 150px;
+            float: right;
+            margin-top: 9.75em;
+            padding: 1em;
+        }
+    }
+    .design-selection {
+        margin-left: 5%;
+        width: 50%;
+        float: left;
+        overflow: hidden;
+    }
+    .design-archives {
+        margin-left: 0;
+        margin-right: 5%;
+        nav {
+            margin-top: 3em;
+        }
+    }
 }
 
 /* ========== large ========== */
 
 @media screen and (min-width: 900px) {
-
-.extra1 {
-  width: 5px;
-  height: 5px;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 3px 3px 20px white;
-  position: fixed;
-  top: 40px;
-  left: 60px;
-
-  &::before {
-    content: "";
-    display: block;
-  width: 5px;
-  height: 5px;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 3px 3px 20px white;
-  position: relative;
-  top: -32px;
-  left: 107px;
-  }
-
-  &::after {
-  content: "";
-  display: block;
-  width: 5px;
-  height: 5px;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 3px 3px 20px white;
-  position: relative;
-  top: 32px;
-  left: 44px;
-  }
+    .extra1 {
+        width: 5px;
+        height: 5px;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 3px 3px 20px white;
+        position: fixed;
+        top: 40px;
+        left: 60px;
+        &::before {
+            content: "";
+            display: block;
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 3px 3px 20px white;
+            position: relative;
+            top: -32px;
+            left: 107px;
+        }
+        &::after {
+            content: "";
+            display: block;
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 3px 3px 20px white;
+            position: relative;
+            top: 32px;
+            left: 44px;
+        }
+    }
+    /*Figure out the fixed position of these in chrome dev tools*/
+    .extra2 {
+        width: 5px;
+        height: 5px;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 3px 3px 20px white;
+        position: fixed;
+        top: 40px;
+        left: 270px;
+        &::before {
+            content: "";
+            display: block;
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 3px 3px 20px white;
+            position: relative;
+            top: -30px;
+            left: 681px;
+        }
+        // &::after {
+        // content: "";
+        // display: block;
+        // width: 5px;
+        // height: 5px;
+        // background-color: white;
+        // border-radius: 50%;
+        // box-shadow: 3px 3px 20px white;
+        // position: relative;
+        // top: 32px;
+        // left: 154px;
+        // }
+   
+    }
+    .extra3 {
+        width: 5px;
+        height: 5px;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 3px 3px 20px white;
+        position: fixed;
+        top: 53px;
+        right: 219px;
+        &::before {
+            content: "";
+            display: block;
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 3px 3px 20px white;
+            position: relative;
+            top: -32px;
+            right: -85px;
+        }
+        &::after {
+            content: "";
+            display: block;
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 3px 3px 20px white;
+            position: relative;
+            top: 7px;
+            right: -156px;
+        }
+    }
 }
 
-/*Figure out the fixed position of these in chrome dev tools*/
-
-.extra2 {
-  width: 5px;
-  height: 5px;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 3px 3px 20px white;
-  position: fixed;
-  top: 40px;
-  left: 270px;
-
-  &::before {
-    content: "";
-    display: block;
-  width: 5px;
-  height: 5px;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 3px 3px 20px white;
-  position: relative;
-  top: -30px;
-  left: 681px;
-  }
-
-  // &::after {
-  // content: "";
-  // display: block;
-  // width: 5px;
-  // height: 5px;
-  // background-color: white;
-  // border-radius: 50%;
-  // box-shadow: 3px 3px 20px white;
-  // position: relative;
-  // top: 32px;
-  // left: 154px;
-  // }
-}
-
-.extra3 {
-  width: 5px;
-  height: 5px;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 3px 3px 20px white;
-  position: fixed;
-  top: 53px;
-  right: 219px;
-
-  &::before {
-    content: "";
-    display: block;
-  width: 5px;
-  height: 5px;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 3px 3px 20px white;
-  position: relative;
-  top: -32px;
-  right: -85px;
-  }
-
-  &::after {
-  content: "";
-  display: block;
-  width: 5px;
-  height: 5px;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 3px 3px 20px white;
-  position: relative;
-  top: 7px;
-  right: -156px;
-  }
-}
-}
 @media screen and (min-width: 1100px) {
-  .preamble::before {
-    margin-top: 9.75em;
-  }
+    .preamble::before {
+        margin-top: 9.75em;
+    }
 }

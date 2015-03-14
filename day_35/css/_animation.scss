@@ -1,0 +1,22 @@
+$dk-grey: rgb(54, 54, 54);
+$lights-on: rgb(255, 207, 82);
+$lights-off: rgb(27, 72, 115);
+
+
+.summary::after, .summary::before,
+.preamble::after,
+.participation::after,
+.explanation::before, .explanation::after,
+.benefits::before, .benefits::after,
+.requirements::after {
+
+  @include animation(lights 10s linear);
+  @include animation-delay(3s);
+}
+
+@keyframes lights {
+    0% {background-color: $lights-on;}
+   20% {background-color:$lights-on;}
+  21% {background-color:$lights-off;}
+  100% {background-color:$lights-off;}
+}
