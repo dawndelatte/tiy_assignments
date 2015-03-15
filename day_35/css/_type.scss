@@ -11,11 +11,10 @@ h1 {
     font-weight: 700;
     padding-top: 0.5em;
     text-shadow: 4px 4px 4px #222;
-    // margin-bottom: 1em;
 }
 
 h2 {
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: 700;
     padding: 1em 0;
     text-shadow: 2px 2px 4px #222;
@@ -54,7 +53,7 @@ footer a {
 
 @media screen and (min-width: 720px) {
     h1 {
-        font-size: 5.5em;
+        font-size: 5em;
     }
     .benefits h3 {
         margin-right: -250px;
@@ -89,7 +88,4 @@ footer a {
     .preamble h3 {
         margin-right: -242px;
     }
-    // .benefits h3 {
-    //   margin-right: -250px;
-    // }
 }
