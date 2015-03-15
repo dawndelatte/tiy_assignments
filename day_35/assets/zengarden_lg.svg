@@ -3,17 +3,16 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
 <g id="buildings">
-	<rect id="bd_left_3" y="302.9" fill="#363636" width="60.7" height="482.9"/>
-	<rect id="bd_left_2" x="52.1" y="356.4" fill="#464646" width="70" height="429.3"/>
-	<rect id="bd_left_1_1_" x="119.6" y="234.7" fill="#555555" width="92.9" height="555.3"/>
-	<rect id="bd_left_1" x="202.1" y="284.3" fill="#6A6969" width="92.9" height="501.4"/>
-	<rect id="bd_left_3_1_" x="939.3" y="304.3" fill="#363636" width="60.7" height="482.9"/>
-	<rect id="bd_left_2_1_" x="877.9" y="357.9" fill="#464646" width="70" height="429.3"/>
-	<rect id="bd_left_1_3_" x="787.5" y="322.9" fill="#555555" width="92.9" height="468.6"/>
-	<rect id="bd_left_1_2_" x="705" y="234.7" fill="#6A6969" width="92.9" height="552.4"/>
-	<rect id="bd_left_1_4_" x="622.1" y="264.1" fill="#7A7A7A" width="92.9" height="521.1"/>
-	<rect id="bd_left_1_6_" x="530.7" y="310.1" fill="#999999" width="92.9" height="475.6"/>
-	<rect id="bd_left_1_5_" x="286.4" y="255" fill="#7A7A7A" width="92.9" height="530.3"/>
+	<rect id="bd_left_3" y="281" fill="#363636" width="60.7" height="678"/>
+	<rect id="bd_left_2" x="52.1" y="356.1" fill="#464646" width="70" height="602.8"/>
+	<rect id="bd_left_1_1_" x="119.6" y="185.2" fill="#555555" width="92.9" height="779.7"/>
+	<rect id="bd_left_1" x="202.1" y="254.8" fill="#6A6969" width="92.9" height="704"/>
+	<rect id="bd_left_3_1_" x="939.3" y="282.9" fill="#363636" width="60.7" height="678"/>
+	<rect id="bd_left_2_1_" x="877.9" y="358.2" fill="#464646" width="70" height="602.8"/>
+	<rect id="bd_left_1_3_" x="787.5" y="309" fill="#555555" width="92.9" height="657.9"/>
+	<rect id="bd_left_1_2_" x="705" y="185.2" fill="#6A6969" width="92.9" height="775.6"/>
+	<rect id="bd_left_1_4_" x="622.1" y="226.5" fill="#7A7A7A" width="92.9" height="731.7"/>
+	<rect id="bd_left_1_5_" x="286.4" y="213.7" fill="#7A7A7A" width="92.9" height="744.6"/>
 </g>
 <g id="Layer_2">
 	<rect x="231.5" y="438.5" fill="#DBB248" width="39.5" height="50.1"/>
@@ -40,10 +39,6 @@
 	<rect x="645.6" y="610.6" fill="#1B4873" width="49.3" height="58.2"/>
 	<rect x="645.6" y="490.3" fill="#DBB248" width="49.3" height="40.7"/>
 	<rect x="642.6" y="347.9" fill="#DBB248" width="52.4" height="66.2"/>
-	<rect x="554.2" y="460.9" fill="#DBB248" width="46.4" height="53.7"/>
-	<rect x="554.2" y="678.4" fill="#DBB248" width="49.3" height="53.1"/>
-	<rect x="554.2" y="555.6" fill="#DBB248" width="49.3" height="37.1"/>
-	<rect x="551.1" y="347.4" fill="#DBB248" width="52.4" height="60.4"/>
 	<rect x="304.7" y="401" fill="#DBB248" width="53.4" height="71.5"/>
 	<rect x="304.7" y="657.4" fill="#DBB248" width="53.4" height="66.7"/>
 	<rect x="304.7" y="516.5" fill="#1B4873" width="53.4" height="46.6"/>
