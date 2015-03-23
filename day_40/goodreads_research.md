@@ -36,50 +36,51 @@ library latter
 
 library
 
-	* personal library
-	* wish-list
-	* goals
-	* organization
-	* accomplishments
-	* favorites
+* personal library
+* wish-list
+* goals
+* organization
+* accomplishments
+* favorites
 
 recommendations
 
-	* friends
-	* branching out
-	* discovery
-	* a place to start
+* friends
+* branching out
+* discovery
+* a place to start
 
 reviewing
 	
-	* book awards
-	* opinions
+* book awards
+* opinions
 
 authors 
 
-	* marketing
-	* book tour
-	* digital tour
-	* reaching readers
-	* releases
-	* staying current
-	* influence
+* marketing
+* book tour
+* digital tour
+* reaching readers
+* releases
+* staying current
+* influence
 
 Ease
-	* buying books
-	* Amazon
-	* scanning 
+
+* buying books
+* Amazon
+* scanning 
 
 Social 
 
-	* sharing
-	* following
-	* watching
-	* booknerd unite
-	* competitive 
-	* influence
-	* clubs
-	* groups
+* sharing
+* following
+* watching
+* booknerd unite
+* competitive 
+* influence
+* clubs
+* groups
 
 [GoodReads Pinterest Board](https://www.pinterest.com/dawndelatte/design-projects-goodreads-redesign/)
 
@@ -97,13 +98,21 @@ Social
 
 ## S.W.O.T.
 
-###Current Strengths: Loyal fan-base, great social networking tool, has many features which allows for more personalization, great mobile app that allows organizing, changin status', and adding on the go, also a great resource for Authors connecting to their readers. 
+####Current Strengths: 
 
-###Current Weaknesses: Web app is very cluttered, hard to read and navigate, hardly any hierarchy, need auto fill/suggestions when searching. 
+Loyal fan-base, great social networking tool, has many features which allows for more personalization, great mobile app that allows organizing, changin status', and adding on the go, also a great resource for Authors connecting to their readers. 
 
-###Future Opportunities: Connecting to ebooks, becoming an actual book library so that you don't have to manual track all progress. 
+####Current Weaknesses: 
 
-###Future Threats: Design is outdated and as more competitors add features AND use current design "standards", it will be harder to stay on top. Amazon still owns several other social book library apps.
+Web app is very cluttered, hard to read and navigate, hardly any hierarchy, need auto fill/suggestions when searching. 
+
+####Future Opportunities: 
+
+Connecting to ebooks, becoming an actual book library so that you don't have to manual track all progress. 
+
+####Future Threats: 
+
+Design is outdated and as more competitors add features AND use current design "standards", it will be harder to stay on top. Amazon still owns several other social book library apps.
 
 
 
