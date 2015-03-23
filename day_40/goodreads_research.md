@@ -81,6 +81,8 @@ Social
 	* clubs
 	* groups
 
+[GoodReads Pinterest Board](https://www.pinterest.com/dawndelatte/design-projects-goodreads-redesign/)
+
 
 ## GoodReads vs Competitors
 
@@ -97,7 +99,7 @@ Social
 
 ###Current Strengths: Loyal fan-base, great social networking tool, has many features which allows for more personalization, great mobile app that allows organizing, changin status', and adding on the go, also a great resource for Authors connecting to their readers. 
 
-###Current Weaknesses: Web app is very cluttered, hard to read and navigate, hardly any hierarchy, need auto fill/suggestions when searching.
+###Current Weaknesses: Web app is very cluttered, hard to read and navigate, hardly any hierarchy, need auto fill/suggestions when searching. 
 
 ###Future Opportunities: Connecting to ebooks, becoming an actual book library so that you don't have to manual track all progress. 
 
