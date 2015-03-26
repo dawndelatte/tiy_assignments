@@ -1,9 +1,7 @@
 # The Iron Yard / Assignments linked to gh-pages
 
 ##Week One
-
-  * [day 03 - Styles Conference](http://dawndelatte.github.io/tiy_assignments/day_03/)
-  * [day 04 - Styles Conference Completed](http://dawndelatte.github.io/tiy_assignments/day_04/)
+  * [day 04 - Styles Conference](http://dawndelatte.github.io/tiy_assignments/day_04/)
   * [day 04 - About Me](http://dawndelatte.github.io/tiy_assignments/day_04/about_me)
   
   
@@ -17,3 +15,9 @@
 
 ###Week Six
    * [day 30 - ABGB website redesign](http://dawndelatte.github.io/tiy_assignments/day_30/)
+
+###Week Seven
+   * [day 35 - CSS Zen Garden](http://dawndelatte.github.io/tiy_assignments/day_35/)
+
+###Week Eight
+   * [portfolio/blog](dawndelatte.github.io)
