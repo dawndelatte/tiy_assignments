@@ -163,18 +163,25 @@ span {
     .social li a:hover {
       color: #106db3; }
 
-.ad {
+.ad_photo {
+  background-image: url(../images/ad.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 300px;
+  max-width: 100%;
   margin: 2em 0; }
-  .ad p {
+  .ad_photo p {
     font-size: 14px;
     text-decoration: underline;
     margin-top: .375em;
     color: #a3b3bf;
     text-align: center; }
-  .ad img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto; }
+
+.ad a {
+  display: block;
+  margin-bottom: 1em;
+  text-align: right; }
 
 .sidebar h3 {
   margin-bottom: .625em;
@@ -321,10 +328,8 @@ span {
   .btn1, .btn2 {
     padding-right: .62em; }
 
-  .social {
-    margin: 1.5em 0 3em 0; }
-    .social li {
-      margin-right: 3em; }
+  .social li {
+    margin-right: 3em; }
 
   .htemil_photo {
     width: 100%; }

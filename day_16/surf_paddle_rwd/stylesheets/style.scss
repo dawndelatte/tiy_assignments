@@ -1,4 +1,4 @@
-/*========= mixins =========*/
+ /*========= mixins =========*/
 
 @mixin global-footer-images {
 	background-position: center bottom;
@@ -238,10 +238,13 @@ span {
 	}
 }
 
-.ad {
-	// @include global-footer-images;
-	// height: 300px;
-	// background-image: url(../images/ad.jpg);
+.ad_photo {
+	background-image: url(../images/ad.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 300px;
+	max-width: 100%;
 	margin: 2em 0;
 
 	p {
@@ -251,11 +254,11 @@ span {
 	color: #a3b3bf;
 	text-align: center;
 	}
-	img {
-	max-width: 100%;
+}
+.ad a {
 	display: block;
-	margin: 0 auto;
-	}
+	margin-bottom: 1em;
+	text-align: right;
 }
 
 .sidebar h3 {
@@ -424,7 +427,7 @@ header {
 }
 
 .social {
-	margin: 1.5em 0 3em 0;
+	// margin: 1.5em 0 3em 0;
 
 	li {
 	margin-right: 3em;
