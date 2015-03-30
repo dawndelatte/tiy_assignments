@@ -69,18 +69,27 @@ header {
 	font-weight: 600;
 
 
-	li, img {
+	li {
 	display: inline-block;
 	text-transform: uppercase;
 	padding-right: 1.43em;
 	vertical-align: middle;
+
+	&:nth-of-type(2) {
+		padding-right: 0.5em;
 	}
-	img {
-	margin-left: 3px;
 	}
+
+
 	li a {
 	text-decoration: none;
 	color: #083452;
+
+	&:hover {
+
+		color: lighten(#083452, 40%);
+	}
+
 	}
 }
 .head_wrap {
@@ -92,6 +101,7 @@ header {
 	padding-left: 11px;
 	color: #a3b3bf;
 }
+
 
 .ht_img {
 	display: none;
@@ -219,11 +229,19 @@ span {
 	}
 	& li a {
 	text-decoration: none;
-	color: #a3b3bf;;
+	color: #a3b3bf;
+
+	&:hover {
+		color: #106db3;
+	}
+
 	}
 }
 
 .ad {
+	// @include global-footer-images;
+	// height: 300px;
+	// background-image: url(../images/ad.jpg);
 	margin: 2em 0;
 
 	p {
@@ -253,6 +271,19 @@ span {
 
 .main_footer {
 	margin-top: .5em;
+
+	a {
+		text-decoration: none;
+	}
+
+	h2 {
+		color: white;
+		text-shadow: 2px 2px 2px #000;
+		text-transform: uppercase;
+		font-size: 2em;
+		text-align: center;
+		padding: 1em 1em;
+	}
 }
 
 .top_footer {
@@ -265,24 +296,30 @@ span {
 	color: #083452;
 }
 
-.img1 {
+.surf {
 	@include global-footer-images;
-	background-image: url(../images/pop-post-1.jpg);
+	background-image: url(../images/surf-guy.jpg);
 }
 
-.img2 {
+.boards {
 	@include global-footer-images;
-	background-image: url(../images/pop-post-2.jpg);
+	background-image: url(../images/surfboard-lineup.jpg);
 }
 
-.img3 {
+.paddle {
 	@include global-footer-images;
-	background-image: url(../images/pop-post-3.jpg);
+	background-image: url(../images/paddle-woman.jpg);
 }
 
-.img4 {
+.beach {
 	@include global-footer-images;
-	background-image: url(../images/pop-post-4.jpg);
+	background-image: url(../images/beach.jpg);
+}
+
+.main_footer {
+	a:hover .surf {
+		background-color: rgba(1, 1, 1, 0.2);
+	}
 }
 
 .bottom_footer {
@@ -307,6 +344,10 @@ span {
 	color: white;
 	font-size: .815em;
 	color: #a3b3bf;
+
+	&:hover {
+		color: darken(#a3b3bf, 30%);
+	}
 }
 
 .iron_yard_info {
@@ -407,7 +448,7 @@ header {
 	margin: 1em 0;
 	font-size: 2.5em;
 }
-.img1, .img2, .img3, .img4 {
+.surf, .boards, .paddle, .beach {
 	width: 50%;
 	height: 200px;
 	float: left;
@@ -502,7 +543,7 @@ header {
 	width: 100%;
 	margin-top: 5em;
 }
-.img1, .img2, .img3, .img4 {
+.surf, .boards, .paddle, .beach {
 	width: 25%;
 	height: 325px;
 }
@@ -527,6 +568,10 @@ header {
 	li a{
 	padding-right: .5em;
 	}
+}
+
+.main_footer h2 {
+	font-size: 2.5em;
 }
 }
 /*========= header breakpoint =========*/

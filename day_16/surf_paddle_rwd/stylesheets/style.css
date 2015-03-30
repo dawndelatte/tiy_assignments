@@ -46,16 +46,18 @@ header {
   float: right;
   font-size: 1em;
   font-weight: 600; }
-  .head_nav li, .head_nav img {
+  .head_nav li {
     display: inline-block;
     text-transform: uppercase;
     padding-right: 1.43em;
     vertical-align: middle; }
-  .head_nav img {
-    margin-left: 3px; }
+    .head_nav li:nth-of-type(2) {
+      padding-right: 0.5em; }
   .head_nav li a {
     text-decoration: none;
     color: #083452; }
+    .head_nav li a:hover {
+      color: #3aa4ec; }
 
 .head_wrap {
   padding-top: 3em; }
@@ -158,6 +160,8 @@ span {
   .social li a {
     text-decoration: none;
     color: #a3b3bf; }
+    .social li a:hover {
+      color: #106db3; }
 
 .ad {
   margin: 2em 0; }
@@ -184,6 +188,15 @@ span {
 
 .main_footer {
   margin-top: .5em; }
+  .main_footer a {
+    text-decoration: none; }
+  .main_footer h2 {
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    padding: 1em 1em; }
 
 .top_footer {
   margin-top: 2em;
@@ -194,37 +207,40 @@ span {
   font-size: 1.5em;
   color: #083452; }
 
-.img1 {
+.surf {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100px;
-  background-image: url(../images/pop-post-1.jpg); }
+  background-image: url(../images/surf-guy.jpg); }
 
-.img2 {
+.boards {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100px;
-  background-image: url(../images/pop-post-2.jpg); }
+  background-image: url(../images/surfboard-lineup.jpg); }
 
-.img3 {
+.paddle {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100px;
-  background-image: url(../images/pop-post-3.jpg); }
+  background-image: url(../images/paddle-woman.jpg); }
 
-.img4 {
+.beach {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100px;
-  background-image: url(../images/pop-post-4.jpg); }
+  background-image: url(../images/beach.jpg); }
+
+.main_footer a:hover .surf {
+  background-color: rgba(1, 1, 1, 0.2); }
 
 .bottom_footer {
   overflow: hidden;
@@ -244,6 +260,8 @@ span {
   color: white;
   font-size: .815em;
   color: #a3b3bf; }
+  .bottom_nav li a:hover {
+    color: #526777; }
 
 .iron_yard_info {
   width: 40%;
@@ -325,7 +343,7 @@ span {
     margin: 1em 0;
     font-size: 2.5em; }
 
-  .img1, .img2, .img3, .img4 {
+  .surf, .boards, .paddle, .beach {
     width: 50%;
     height: 200px;
     float: left; }
@@ -395,7 +413,7 @@ span {
     width: 100%;
     margin-top: 5em; }
 
-  .img1, .img2, .img3, .img4 {
+  .surf, .boards, .paddle, .beach {
     width: 25%;
     height: 325px; }
 
@@ -413,7 +431,10 @@ span {
     border: none;
     margin-right: 0; }
   .bottom_footer li a {
-    padding-right: .5em; } }
+    padding-right: .5em; }
+
+  .main_footer h2 {
+    font-size: 2.5em; } }
 /*========= header breakpoint =========*/
 @media screen and (min-width: 1120px) {
   .headline h2 {
