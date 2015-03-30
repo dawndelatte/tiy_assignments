@@ -39,7 +39,8 @@ p {
 
 ul li a {
     text-decoration: none;
-    font-size: 1.25em;
+    font-size: 1.1em;
+    line-height: 1.4em;
     font-weight: 600;
 }
 
@@ -51,15 +52,20 @@ footer a {
     }
 }
 
+
+
 @media screen and (min-width: 720px) {
     h1 {
         font-size: 5em;
     }
     .benefits h3 {
         text-align: right; 
-        margin-right: 90px; 
-
+        margin-right: 110px; 
     }
+
+    .design-selection h3, .design-archives h3, .zen-resources h3 {
+    text-align: left;
+}
 }
 
 @media screen and (min-width: 900px) {
