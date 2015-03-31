@@ -217,6 +217,15 @@ footer, aside {
   height: 150px;
   padding: 1em; }
 
+.summary::after {
+  background-image: url(../assets/curtains.svg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.explanation::after {
+  background-image: url(../assets/blinds.svg);
+  background-repeat: no-repeat; }
+
 .preamble::after, .explanation::after, .benefits::before, .requirements::after {
   float: right;
   margin-right: 5%; }
@@ -291,6 +300,8 @@ footer {
   .summary::after {
     display: none; }
   .summary::before {
+    background-image: url(../assets/curtains.svg);
+    background-repeat: no-repeat;
     content: "";
     display: block;
     width: 30%;
