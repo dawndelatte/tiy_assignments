@@ -220,7 +220,9 @@ span {
   background-size: cover;
   width: 100%;
   height: 100px;
-  background-image: url(../images/surf-guy.jpg); }
+  background-image: linear-gradient(rgba(0, 139, 146, 0.5), rgba(0, 139, 146, 0.5)), url(../images/surf-guy.jpg); }
+  .surf:hover {
+    background-image: url(../images/surf-guy.jpg); }
 
 .boards {
   background-position: center bottom;

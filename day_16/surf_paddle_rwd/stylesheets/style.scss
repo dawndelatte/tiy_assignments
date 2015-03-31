@@ -301,7 +301,11 @@ span {
 
 .surf {
 	@include global-footer-images;
-	background-image: url(../images/surf-guy.jpg);
+	background-image: linear-gradient(rgba(0, 139, 146, 0.5), rgba(0, 139, 146, 0.5)), url(../images/surf-guy.jpg);
+
+	&:hover {
+		background-image: url(../images/surf-guy.jpg);
+	}
 }
 
 .boards {
