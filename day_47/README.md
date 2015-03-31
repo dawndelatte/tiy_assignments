@@ -1,50 +1,50 @@
-#French Quarter 
+#French Quarter Festival Redesign Proposal
 
 ###Dawn Delatte
 
 ##Key Adjectives
 
-*music
+* music
 
-*free
+* free
 
-*rythym
+* rythym
 
-*rich food
+* rich food
 
-*unique
+* unique
 
-*eclectic 
+* eclectic 
 
-*soul, funk, jazz
+* soul, funk, jazz
 
-*vibrant
+* vibrant
 
-*wrought iron
+* wrought iron
 
-*multi-cultural
+* multi-cultural
 
-*multi-ethnic
+* multi-ethnic
 
-*family
+* family
 
-*brass
+* brass
 
-*second line
+* second line
 
-*marching band
+* marching band
 
-*beats
+* beats
 
-*spring
+* spring
 
-*crawfish season
+* crawfish season
 
-*stimulating
+* stimulating
 
-*all-ages
+* all-ages
 
-*appeals to every sense 
+* appeals to every sense 
 
 ##Brand
 
@@ -61,27 +61,27 @@ French Quarter Festivals, Inc is a non-profit organization who's goal has always
 
 Although this festival's audeince in the past has been more focused on adults, in recent years it has become a festival that welcomes all members of the family—from small children to teenagers and millenials. The website is for festival goers—locals and tourists who need to easily navigate the stage schedules, locations/maps and get important information about places to stay, nearby restuarants, and special events times and locations.
 
-*well-traveled tourist
+* well-traveled tourist
 
-*New Orleans natives
+* New Orleans natives
 
-*out-of-town Louisianians
+* out-of-town Louisianians
 
-*cheap festival-goer
+* cheap festival-goer
 
 ##Competitors 
 
 ####Other festivals in New Orleans
 
-*[New Orleans Jazz and Heritage Festival](http://www.nojazzfest.com/)
+* [New Orleans Jazz and Heritage Festival](http://www.nojazzfest.com/)
 
-*[Voodoo Festival](http://worshipthemusic.com/)
+* [Voodoo Festival](http://worshipthemusic.com/)
 
 ####Festivals near by with the same dates
 
-*[Ponchatoula Strawberry Festival](www.lastrawberryfestival.com)
+* [Ponchatoula Strawberry Festival](www.lastrawberryfestival.com)
 
-*[Nature Fest, Jackson MS](www.msnaturalscience.org)
+* [Nature Fest, Jackson MS](www.msnaturalscience.org)
 
 ##Possible Problems and S.W.O.T Analysis
 
@@ -89,6 +89,6 @@ In its current state, this webiste is difficult to navigate and is lacking in a 
 
 ###Current Strengths
 
-*loyal attendees
+* loyal attendees
 
 *
