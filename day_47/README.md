@@ -1,31 +1,5 @@
 #French Quarter Festival Redesign Proposal
-
 ###Dawn Delatte
-
-##Key Adjectives
-
-* music
-* free
-* rhythm
-* rich food
-* unique
-* eclectic 
-* soul, funk, jazz
-* vibrant
-* multi-cultural
-* multi-ethnic
-* multi-generational
-* family
-* brass
-* wrought iron
-* second line
-* marching band
-* beats
-* spring
-* crawfish season
-* stimulating
-* all-ages
-* appeals to every sense 
 
 ##Brand
 
@@ -33,9 +7,9 @@ French Quarter Festivals, Inc is a non-profit organization who's goal has always
 
 ####What are people saying about The French Quarter Festival?
 
-“Promoters of the French Quarter Festival have taken to calling it 'The World’s Largest Block Party!'” -New Orleans Online
+“Promoters of the French Quarter Festival have taken to calling it 'The World’s Largest Block Party!'” —New Orleans Online
 
-“What started as a neighborhood festival and “locals' event” has grown into the largest showcase of Louisiana music and food in the world, with an economic impact of over $251 million. Last year, Huffington Post named French Quarter Festival the “one thing to do in Louisiana.” -Biz New Orleans
+“What started as a neighborhood festival and “locals' event” has grown into the largest showcase of Louisiana music and food in the world, with an economic impact of over $251 million. Last year, Huffington Post named French Quarter Festival the “one thing to do in Louisiana.” —Biz New Orleans
  
 
 ##Audience
@@ -45,7 +19,9 @@ Although this festival's audience in the past has been more focused on adults, i
 * well-traveled tourist
 * New Orleans natives
 * out-of-town Louisianians
-* cheap festival-goer
+* cheap festival-goers
+* music lovers
+* foodies
 
 ##Competitors 
 
@@ -103,5 +79,28 @@ It's important that this website be accessible to multiple generations and local
 * Special Events (Parade, Gala, etc.)
 * Festival Info (Maps and FAQs)
 
+##Key Adjectives
 
+* music
+* free
+* rhythm
+* rich food
+* unique
+* eclectic 
+* soul, funk, jazz
+* vibrant
+* multi-cultural
+* multi-ethnic
+* multi-generational
+* family
+* brass
+* wrought iron
+* second line
+* marching band
+* beats
+* spring
+* crawfish season
+* stimulating
+* all-ages
+* appeals to every sense 
 
