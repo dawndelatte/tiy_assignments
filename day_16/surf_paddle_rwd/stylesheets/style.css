@@ -1,6 +1,8 @@
 /*========= mixins =========*/
 body {
   font-family: 'Open Sans', sans-serif; }
+  body a:visited {
+    color: #5e686f; }
 
 /*========= global =========*/
 .wrapper {
@@ -9,25 +11,29 @@ body {
   max-width: 1200px;
   overflow: hidden; }
 
+.head_wrap h2 {
+  margin-top: 3em; }
+
 header {
   height: 18.75em;
-  background-image: url(../images/mainphoto.jpg);
+  background-image: url(https://m1.behance.net/rendition/modules/51017955/disp/10d94ff5adc4216ad9f856e6514468c4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
   position: relative; }
   header h1 {
     color: white;
     font-size: 2.1em;
     text-align: center;
     padding-left: 1.1%;
-    font-weight: 600; }
+    font-weight: 600;
+    text-shadow: 2px 2px 2px black; }
   header h2 {
     text-align: center;
     font-weight: 600;
     padding-left: 12px;
-    color: #083452;
-    font-weight: 700; }
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black; }
 
 .logo {
   float: left;
@@ -68,7 +74,8 @@ header {
   color: #a3b3bf; }
 
 .ht_img {
-  display: none; }
+  display: none;
+  border-radius: 50%; }
 
 span {
   text-decoration: underline;
@@ -109,6 +116,18 @@ span {
   float: left;
   margin-left: 10px; }
 
+.recipe {
+  font-family: 'Open Sans', sans-serif;
+  color: #5e686f;
+  margin-bottom: 2em; }
+  .recipe li {
+    margin-top: 1em; }
+  .recipe h4 {
+    font-size: 2em;
+    margin-bottom: 1em; }
+  .recipe a:visited {
+    color: #5e686f; }
+
 .article_btns {
   margin: 3.1% 0 0 20%; }
   .article_btns p {
@@ -140,6 +159,8 @@ span {
 
 .htemil_photo {
   width: 15%; }
+  .htemil_photo img {
+    border-radius: 50%; }
 
 .social {
   margin: 2em 2em; }
@@ -220,9 +241,9 @@ span {
   background-size: cover;
   width: 100%;
   height: 100px;
-  background-image: linear-gradient(rgba(0, 139, 146, 0.5), rgba(0, 139, 146, 0.5)), url(../images/surf-guy.jpg); }
+  background-image: linear-gradient(rgba(130, 131, 126, 0.5), rgba(130, 131, 126, 0.5)), url(../images/hash.jpg); }
   .surf:hover {
-    background-image: url(../images/surf-guy.jpg); }
+    background-image: url(../images/hash.jpg); }
 
 .boards {
   background-position: center bottom;
@@ -230,7 +251,9 @@ span {
   background-size: cover;
   width: 100%;
   height: 100px;
-  background-image: url(../images/surfboard-lineup.jpg); }
+  background-image: linear-gradient(rgba(130, 131, 126, 0.5), rgba(130, 131, 126, 0.5)), url(../images/creampuffs.jpg); }
+  .boards:hover {
+    background-image: url(../images/creampuffs.jpg); }
 
 .paddle {
   background-position: center bottom;
@@ -238,7 +261,9 @@ span {
   background-size: cover;
   width: 100%;
   height: 100px;
-  background-image: url(../images/paddle-woman.jpg); }
+  background-image: linear-gradient(rgba(130, 131, 126, 0.5), rgba(130, 131, 126, 0.5)), url(../images/eggplants.jpg); }
+  .paddle:hover {
+    background-image: url(../images/eggplants.jpg); }
 
 .beach {
   background-position: center bottom;
@@ -246,7 +271,9 @@ span {
   background-size: cover;
   width: 100%;
   height: 100px;
-  background-image: url(../images/beach.jpg); }
+  background-image: linear-gradient(rgba(130, 131, 126, 0.5), rgba(130, 131, 126, 0.5)), url(../images/figs.jpg); }
+  .beach:hover {
+    background-image: url(../images/figs.jpg); }
 
 .main_footer a:hover .surf {
   background-color: rgba(1, 1, 1, 0.2); }
@@ -303,7 +330,7 @@ span {
   header {
     height: 25em; }
     header h1 {
-      font-size: 3.5em; }
+      font-size: 4em; }
 
   .sp_logo {
     display: inline-block; }
@@ -375,7 +402,7 @@ span {
   header {
     height: 32.68em; }
     header h1 {
-      font-size: 5.25em; }
+      font-size: 7em; }
 
   .head_wrap {
     padding-top: 8em; }
