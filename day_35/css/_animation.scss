@@ -31,6 +31,12 @@ $lights-off: rgb(18, 35, 94);
 .extra4, .extra4::after {
     @include animation(twinkle 400ms ease infinite);
 }
+/*=====blinds=====*/
+
+// .explanation::after {
+//         @include animation(pull 1s ease infinite);
+// }
+
 
 /*==========keyframes==========*/
 
@@ -77,3 +83,12 @@ $lights-off: rgb(18, 35, 94);
         background-color: white;
     }
 }
+
+// @include keyframes(pull) {
+//     0% {
+//         background-size: 25%;
+//     }
+//     100% {
+//         background-size: 100%;
+//     }
+// }

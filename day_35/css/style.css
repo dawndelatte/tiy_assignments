@@ -549,6 +549,7 @@ footer {
   -moz-animation: twinkle 400ms ease infinite;
   animation: twinkle 400ms ease infinite; }
 
+/*=====blinds=====*/
 /*==========keyframes==========*/
 @-webkit-keyframes lights-before {
   0% {
