@@ -220,11 +220,17 @@ footer, aside {
 .summary::after {
   background-image: url(../assets/curtains.svg);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: 100%; }
 
 .explanation::after {
   background-image: url(../assets/blinds.svg);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.benefits::before {
+  background-image: url(../assets/person.svg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
 
 .preamble::after, .explanation::after, .benefits::before, .requirements::after {
   float: right;
@@ -301,6 +307,7 @@ footer {
     display: none; }
   .summary::before {
     background-image: url(../assets/curtains.svg);
+    background-size: 100%;
     background-repeat: no-repeat;
     content: "";
     display: block;
